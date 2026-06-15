@@ -1,0 +1,273 @@
+{
+  "metadata": {
+    "schemaVersion": 1,
+    "version": "2026-06-official-snapshot",
+    "lastUpdated": "2026-06-14"
+  },
+  "places": {
+    "hnd-t3": {
+      "id": "hnd-t3",
+      "name": "羽田空港 第3ターミナル",
+      "sources": [
+        "keikyu-hnd-t3",
+        "monorail-hnd-t3"
+      ],
+      "schedules": {
+        "weekday": "./hnd_t3_weekday.json",
+        "holiday": "./hnd_t3_holiday.json"
+      }
+    },
+    "nrt_t2": {
+      "id": "nrt_t2",
+      "name": "成田空港 第2ターミナル",
+      "sources": [
+        "keisei-access-nrt-t2",
+        "keisei-mainline-nrt-t2",
+        "jr-nrt-t2",
+        "tyo-nrt-nrt-t2"
+      ],
+      "schedules": {
+        "weekday": "./nrt_t2_weekday.json",
+        "holiday": "./nrt_t2_holiday.json"
+      }
+    }
+  },
+  "sources": {
+    "keikyu-hnd-t3": {
+      "id": "keikyu-hnd-t3",
+      "operator": "京急",
+      "line": "京急空港線",
+      "stationName": "羽田空港第3ターミナル駅",
+      "color": "#32a7ff",
+      "defaultFilter": {
+        "destinations": [
+          "品川",
+          "青砥",
+          "押上",
+          "泉岳寺",
+          "京成高砂",
+          "京成佐倉",
+          "成田空港",
+          "印旛日本医大",
+          "印西牧の原"
+        ],
+        "trainTypes": [
+          "エアポート快特",
+          "快特",
+          "特急",
+          "急行"
+        ]
+      },
+      "defaultEnabled": true,
+      "referenceStops": {
+        "*": [
+          "品川",
+          "大門"
+        ]
+      },
+      "trainTypeCategories": {
+        "エアポート快特": "keikyu-fast",
+        "快特": "keikyu-fast",
+        "特急": "keikyu-express",
+        "急行": "keikyu-express",
+        "普通": "local-rail"
+      },
+      "operatorLabel": "京急",
+      "displayName": "京急線　羽田空港第3ターミナル駅",
+      "shortName": "京急線"
+    },
+    "monorail-hnd-t3": {
+      "id": "monorail-hnd-t3",
+      "operator": "東京モノレール",
+      "line": "東京モノレール羽田空港線",
+      "stationName": "羽田空港第3ターミナル駅",
+      "color": "#ff7043",
+      "defaultFilter": {
+        "trainTypes": [
+          "空港快速",
+          "区間快速"
+        ]
+      },
+      "defaultEnabled": true,
+      "referenceStops": {
+        "*": [
+          "浜松町"
+        ]
+      },
+      "trainTypeCategories": {
+        "空港快速": "monorail-airport-rapid",
+        "区間快速": "monorail-section-rapid",
+        "普通": "local-rail"
+      },
+      "operatorLabel": "東京モノレール",
+      "displayName": "東京モノレール　羽田空港第3ターミナル駅",
+      "shortName": "東京モノレール"
+    },
+    "jr-nrt-t2": {
+      "id": "jr-nrt-t2",
+      "operator": "JR",
+      "line": "成田線",
+      "stationName": "空港第2ビル駅",
+      "defaultEnabled": true,
+      "color": "#43a047",
+      "defaultFilter": {},
+      "referenceStops": {
+        "*": [
+          "東京"
+        ],
+        "成田エクスプレス": [
+          "東京",
+          "新宿"
+        ]
+      },
+      "trainTypeCategories": {
+        "成田エクスプレス": "jr-nex",
+        "快速": "local-rail",
+        "普通": "local-rail"
+      },
+      "operatorLabel": "JR",
+      "displayName": "JR成田線　空港第2ビル駅",
+      "shortName": "JR成田線"
+    },
+    "tyo-nrt-nrt-t2": {
+      "id": "tyo-nrt-nrt-t2",
+      "operator": "エアポートバス東京・成田",
+      "operatorLabel": "エアポートバス東京・成田",
+      "line": "成田空港－東京駅",
+      "stationName": "成田空港第2ターミナル6番",
+      "defaultEnabled": true,
+      "color": "#0f766e",
+      "defaultFilter": {},
+      "referenceStops": {
+        "*": [
+          "東京駅"
+        ],
+        "銀座駅": [
+          "東京駅",
+          "銀座駅"
+        ]
+      },
+      "trainTypeCategories": {
+        "バス": "airport-bus"
+      },
+      "displayName": "エアポートバス東京・成田　成田空港第2ターミナル6番",
+      "shortName": "エアポートバス東京・成田"
+    },
+    "keisei-access-nrt-t2": {
+      "id": "keisei-access-nrt-t2",
+      "operator": "京成",
+      "line": "成田スカイアクセス線",
+      "stationName": "空港第2ビル駅",
+      "displayName": "成田スカイアクセス線　空港第2ビル駅",
+      "shortName": "成田スカイアクセス線",
+      "defaultEnabled": true,
+      "color": "#e53935",
+      "defaultFilter": {
+        "trainTypes": [
+          "スカイライナー",
+          "アクセス特急"
+        ]
+      },
+      "referenceStops": {
+        "スカイライナー": [
+          "青砥",
+          "日暮里"
+        ],
+        "アクセス特急": [
+          "青砥",
+          "押上",
+          "日暮里"
+        ]
+      },
+      "trainTypeCategories": {
+        "スカイライナー": "keisei-skyliner",
+        "アクセス特急": "keisei-access",
+        "快速特急": "keisei-mainline",
+        "通勤特急": "keisei-mainline",
+        "特急": "keisei-mainline",
+        "快速": "local-rail",
+        "普通": "local-rail",
+        "モーニングライナー": "keisei-skyliner",
+        "イブニングライナー": "keisei-skyliner"
+      }
+    },
+    "keisei-mainline-nrt-t2": {
+      "id": "keisei-mainline-nrt-t2",
+      "operator": "京成",
+      "line": "京成本線",
+      "stationName": "空港第2ビル駅",
+      "displayName": "京成本線　空港第2ビル駅",
+      "shortName": "京成本線",
+      "defaultEnabled": true,
+      "color": "#e53935",
+      "defaultFilter": {
+        "trainTypes": [
+          "快速特急",
+          "特急"
+        ]
+      },
+      "referenceStops": {
+        "*": [
+          "青砥",
+          "押上",
+          "日暮里"
+        ]
+      },
+      "trainTypeCategories": {
+        "快速特急": "keisei-mainline",
+        "通勤特急": "keisei-mainline",
+        "特急": "keisei-mainline",
+        "快速": "local-rail",
+        "普通": "local-rail",
+        "モーニングライナー": "keisei-skyliner",
+        "イブニングライナー": "keisei-skyliner"
+      }
+    }
+  },
+  "serviceTypes": [
+    {
+      "id": "weekday",
+      "label": "平日"
+    },
+    {
+      "id": "holiday",
+      "label": "土休日"
+    }
+  ],
+  "dataNote": "公式時刻表を参照して2026-06-14に作成したローカル実データスナップショットです。運行変更・遅延は反映されません。",
+  "displayCategories": {
+    "default": {
+      "label": "その他"
+    },
+    "keikyu-fast": {
+      "label": "京急 速達"
+    },
+    "keikyu-express": {
+      "label": "京急 特急・急行"
+    },
+    "keisei-skyliner": {
+      "label": "京成 スカイライナー"
+    },
+    "keisei-access": {
+      "label": "京成 アクセス特急"
+    },
+    "keisei-mainline": {
+      "label": "京成本線 速達"
+    },
+    "jr-nex": {
+      "label": "JR 成田エクスプレス"
+    },
+    "local-rail": {
+      "label": "一般列車"
+    },
+    "airport-bus": {
+      "label": "エアポートバス東京・成田"
+    },
+    "monorail-airport-rapid": {
+      "label": "東京モノレール 空港快速"
+    },
+    "monorail-section-rapid": {
+      "label": "東京モノレール 区間快速"
+    }
+  }
+}

@@ -1,0 +1,1095 @@
+﻿{
+  "metadata": {
+    "sourceUrl": "https://tyo-nrt.com/wp/wp-content/themes/tyo-nrt/files/timetable_new_horizon.pdf",
+    "effectiveFrom": "2026-04-01",
+    "status": "manual"
+  },
+  "arrivalsByDepartureTime": {
+    "07:20": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "08:53",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "09:06",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "07:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "09:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "07:55": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "09:28",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "08:15": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "09:48",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "08:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "09:58",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "10:11",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "08:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "10:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "08:45": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "10:18",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "10:31",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "09:05": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "10:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "10:51",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "09:15": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "10:48",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "09:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "10:58",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "11:11",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "09:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "11:03",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "09:45": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "11:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "11:21",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "09:55": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "11:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "10:05": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "11:18",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "10:15": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "11:28",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "11:41",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "10:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "11:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "10:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "11:48",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "10:40": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "11:59",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "10:45": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "11:58",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "10:55": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "12:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "11:05": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "12:18",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "11:10": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "12:29",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "11:15": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "12:28",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "11:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "12:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "11:30": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "12:49",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "11:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "12:48",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "11:45": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "12:58",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "11:50": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "13:09",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "11:55": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "13:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "12:05": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "13:18",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "12:10": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "13:29",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "12:15": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "13:28",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "12:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "13:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "12:30": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "13:49",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "12:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "13:48",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "12:45": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "13:58",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "12:55": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "14:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "13:00": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "14:19",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "13:05": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "14:18",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "13:15": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "14:28",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "13:20": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "14:39",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "13:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "14:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "13:30": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "14:49",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "13:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "14:48",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "13:40": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "14:59",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "13:45": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "14:58",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "13:55": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "15:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "14:00": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "15:19",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "14:05": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "15:18",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "14:15": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "15:28",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "14:20": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "15:39",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "14:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "15:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "14:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "15:48",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "14:40": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "15:59",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "14:45": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "15:58",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "14:55": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "16:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "16:21",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "15:05": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "16:18",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "15:15": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "16:28",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "16:41",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "15:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "16:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "15:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "16:48",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "15:40": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "16:59",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "15:45": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "16:58",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "15:55": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "17:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "16:05": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "17:18",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "17:31",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "16:15": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "17:28",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "16:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "17:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "16:30": [
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "17:49",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "16:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "17:58",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "16:45": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "18:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "18:21",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "16:55": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "18:18",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "17:05": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "18:28",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "18:41",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "17:15": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "18:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "17:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "18:48",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "19:01",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "17:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "18:58",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "17:45": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "19:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "19:21",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "17:55": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "19:18",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "18:05": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "19:28",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "19:41",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "18:15": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "19:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "18:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "19:48",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "20:01",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "18:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "19:58",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "18:45": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "20:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "20:21",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "18:55": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "20:18",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "19:05": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "20:28",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "20:41",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "19:15": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "20:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "19:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "20:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "20:51",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "19:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "20:48",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "19:45": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "20:58",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "21:11",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "19:55": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "21:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "20:05": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "21:18",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "21:31",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "20:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "21:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "21:51",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "20:45": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "21:58",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "20:55": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "22:08",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "22:21",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "21:05": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "22:18",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "21:15": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "22:28",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      },
+      {
+        "stationName": "銀座駅",
+        "arrivalTime": "22:41",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "21:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "22:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "21:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "22:48",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "21:50": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "23:03",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "22:05": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "23:18",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "22:20": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "23:33",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "22:35": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "23:48",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "22:50": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "24:03",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ],
+    "23:25": [
+      {
+        "stationName": "東京駅",
+        "arrivalTime": "24:38",
+        "timeType": "arrival",
+        "source": "manual",
+        "confidence": "manual"
+      }
+    ]
+  }
+}

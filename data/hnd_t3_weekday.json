@@ -1,0 +1,6449 @@
+{
+  "metadata": {
+    "schemaVersion": 1,
+    "placeId": "hnd-t3",
+    "serviceType": "weekday",
+    "version": "2026-06-official-snapshot",
+    "lastUpdated": "2026-06-14",
+    "status": "manual",
+    "sources": {
+      "keikyu-hnd-t3": {
+        "status": "manual",
+        "version": "2026-06-official-snapshot",
+        "lastUpdated": "2026-06-14",
+        "sourceUrl": "https://norikae.keikyu.co.jp/transit/norikae/T5?USR=PC&dw=0&slCode=253-6&d=1"
+      },
+      "monorail-hnd-t3": {
+        "status": "manual",
+        "version": "2026-06-official-snapshot",
+        "lastUpdated": "2026-06-14",
+        "sourceUrl": "https://train-cloud.navitime.biz/tokyo-monorail/railroads/timetables?station=00009590&directional-railroad=00000783-up&date=2026-06-15"
+      }
+    }
+  },
+  "departures": [
+    {
+      "id": "monorail-hnd-t3-0509-001",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "05:09",
+      "trainType": "区間快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "05:25",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0524-002",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "05:24",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "05:43",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0526-003",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "05:26",
+      "trainType": "急行",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "05:46",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "05:53",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0536-004",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "05:36",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "05:54",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0537-005",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "05:37",
+      "trainType": "快特",
+      "destination": "青砥",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "05:51",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "06:00",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0542-006",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "05:42",
+      "trainType": "急行",
+      "destination": "品川",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "06:02",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0546-007",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "05:46",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "06:04",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0551-008",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "05:51",
+      "trainType": "急行",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "06:11",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "06:19",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0556-009",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "05:56",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "06:14",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0559-010",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "05:59",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-0604-011",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "06:04",
+      "trainType": "急行",
+      "destination": "泉岳寺",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "06:24",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0606-012",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "06:06",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "06:24",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0611-013",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "06:11",
+      "trainType": "急行",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "06:33",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "06:40",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0613-014",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "06:13",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "06:33",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0616-015",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "06:16",
+      "trainType": "急行",
+      "destination": "品川",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "06:36",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0616-016",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "06:16",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "06:29",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0621-017",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "06:21",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "06:39",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0624-018",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "06:24",
+      "trainType": "普通",
+      "destination": "品川",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "06:56",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0630-019",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "06:30",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "06:52",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0632-020",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "06:32",
+      "trainType": "急行",
+      "destination": "品川",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "06:51",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0634-021",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "06:34",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "06:47",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0637-022",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "06:37",
+      "trainType": "急行",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "07:00",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "07:08",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0638-023",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "06:38",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "06:56",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0641-024",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "06:41",
+      "trainType": "急行",
+      "destination": "品川",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "07:02",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0642-025",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "06:42",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "07:00",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0646-026",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "06:46",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "07:04",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0647-027",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "06:47",
+      "trainType": "急行",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "07:11",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "07:19",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0651-028",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "06:51",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "07:09",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0654-029",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "06:54",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-0655-030",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "06:55",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "07:14",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0658-031",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "06:58",
+      "trainType": "急行",
+      "destination": "印西牧の原",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "07:20",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "07:28",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0703-032",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "07:03",
+      "trainType": "急行",
+      "destination": "金沢文庫"
+    },
+    {
+      "id": "monorail-hnd-t3-0703-033",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "07:03",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "07:21",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0707-034",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "07:07",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "07:26",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0708-035",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "07:08",
+      "trainType": "急行",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "07:30",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "07:38",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0711-036",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "07:11",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "07:30",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0716-037",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "07:16",
+      "trainType": "急行",
+      "destination": "京成佐倉",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "07:40",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "07:48",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0718-038",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "07:18",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "07:37",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0719-039",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "07:19",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-0722-040",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "07:22",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "07:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0727-041",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "07:27",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "07:45",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0729-042",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "07:29",
+      "trainType": "急行",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "07:52",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "08:00",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0731-043",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "07:31",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "07:50",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0734-044",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "07:34",
+      "trainType": "急行",
+      "destination": "金沢文庫"
+    },
+    {
+      "id": "monorail-hnd-t3-0735-045",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "07:35",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "07:54",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0739-046",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "07:39",
+      "trainType": "急行",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "08:03",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "08:11",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0739-047",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "07:39",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "07:58",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0743-048",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "07:43",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:02",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0744-049",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "07:44",
+      "trainType": "急行",
+      "destination": "金沢文庫"
+    },
+    {
+      "id": "monorail-hnd-t3-0747-050",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "07:47",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:06",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0748-051",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "07:48",
+      "trainType": "急行",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "08:13",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "08:22",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0751-052",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "07:51",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:10",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0752-053",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "07:52",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-0755-054",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "07:55",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:14",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0759-055",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "07:59",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:18",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0800-056",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "08:00",
+      "trainType": "急行",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "08:24",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "08:33",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0803-057",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "08:03",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:22",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0804-058",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "08:04",
+      "trainType": "急行",
+      "destination": "金沢文庫"
+    },
+    {
+      "id": "monorail-hnd-t3-0807-059",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "08:07",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:26",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0810-060",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "08:10",
+      "trainType": "普通",
+      "destination": "京急蒲田"
+    },
+    {
+      "id": "monorail-hnd-t3-0811-061",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "08:11",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:30",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0813-062",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "08:13",
+      "trainType": "急行",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "08:35",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "08:43",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0815-063",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "08:15",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:34",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0819-064",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "08:19",
+      "trainType": "普通",
+      "destination": "京急蒲田"
+    },
+    {
+      "id": "monorail-hnd-t3-0819-065",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "08:19",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:38",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0823-066",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "08:23",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:42",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0824-067",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "08:24",
+      "trainType": "急行",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "08:46",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "08:54",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0827-068",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "08:27",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:46",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0829-069",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "08:29",
+      "trainType": "急行",
+      "destination": "金沢文庫"
+    },
+    {
+      "id": "monorail-hnd-t3-0831-070",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "08:31",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:50",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0835-071",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "08:35",
+      "trainType": "急行",
+      "destination": "押上",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "08:59",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "09:07",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0835-072",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "08:35",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:54",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0839-073",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "08:39",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "08:58",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0840-074",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "08:40",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-0843-075",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "08:43",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "09:02",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0845-076",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "08:45",
+      "trainType": "急行",
+      "destination": "押上",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "09:08",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "09:17",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0847-077",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "08:47",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "09:06",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0850-078",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "08:50",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-0851-079",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "08:51",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "09:10",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0855-080",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "08:55",
+      "trainType": "急行",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "09:18",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "09:25",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0856-081",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "08:56",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "09:15",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0900-082",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "09:00",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-0901-083",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "09:01",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "09:20",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0906-084",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "09:06",
+      "trainType": "急行",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "09:30",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "09:37",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0908-085",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "09:08",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "09:29",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0911-086",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "09:11",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-0912-087",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "09:12",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "09:25",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0916-088",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "09:16",
+      "trainType": "急行",
+      "destination": "青砥",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "09:39",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "09:46",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0916-089",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "09:16",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "09:37",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0920-090",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "09:20",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "09:33",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0921-091",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "09:21",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-0924-092",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "09:24",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "09:42",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0928-093",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "09:28",
+      "trainType": "急行",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "09:48",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "09:56",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0930-094",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "09:30",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "09:51",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0933-095",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "09:33",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-0933-096",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "09:33",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "09:47",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0936-097",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "09:36",
+      "trainType": "急行",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "09:58",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "10:05",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0940-098",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "09:40",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "10:01",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0941-099",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "09:41",
+      "trainType": "急行",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "10:01",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "10:11",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0944-100",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "09:44",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "09:57",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0950-101",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "09:50",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-0951-102",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "09:51",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "10:12",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-0954-103",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "09:54",
+      "trainType": "快特",
+      "destination": "印西牧の原",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "10:09",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "10:17",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-0954-104",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "09:54",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "10:08",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1001-105",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "10:01",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "10:21",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1002-106",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "10:02",
+      "trainType": "特急",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "10:20",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "10:28",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1004-107",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "10:04",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "10:17",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1009-108",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "10:09",
+      "trainType": "特急",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "10:29",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "10:36",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1011-109",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "10:11",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "10:31",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1014-110",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "10:14",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "10:27",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1015-111",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "10:15",
+      "trainType": "急行",
+      "destination": "金沢文庫"
+    },
+    {
+      "id": "monorail-hnd-t3-1021-112",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "10:21",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "10:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1023-113",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "10:23",
+      "trainType": "快特",
+      "destination": "成田スカイアクセス線経由成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "10:39",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "10:48",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1024-114",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "10:24",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "10:37",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1025-115",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "10:25",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1031-116",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "10:31",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "10:51",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1033-117",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "10:33",
+      "trainType": "快特",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "10:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "10:56",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1034-118",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "10:34",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "10:47",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1035-119",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "10:35",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1041-120",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "10:41",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "11:01",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1044-121",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "10:44",
+      "trainType": "快特",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "10:59",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "11:07",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1044-122",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "10:44",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "10:57",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1047-123",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "10:47",
+      "trainType": "急行",
+      "destination": "京急川崎"
+    },
+    {
+      "id": "monorail-hnd-t3-1051-124",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "10:51",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "11:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1054-125",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "10:54",
+      "trainType": "快特",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "11:09",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "11:17",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1054-126",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "10:54",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "11:07",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1100-127",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "11:00",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1101-128",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "11:01",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "11:21",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1104-129",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "11:04",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "11:17",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1107-130",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "11:07",
+      "trainType": "エアポート快特",
+      "destination": "成田スカイアクセス線経由成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "11:19",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "11:27",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1109-131",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "11:09",
+      "trainType": "特急",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "11:29",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "11:38",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1111-132",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "11:11",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "11:31",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1114-133",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "11:14",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "11:27",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1120-134",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "11:20",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1121-135",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "11:21",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "11:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1124-136",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "11:24",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "11:37",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1125-137",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "11:25",
+      "trainType": "快特",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "11:39",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "11:47",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1129-138",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "11:29",
+      "trainType": "特急",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "11:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "11:57",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1131-139",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "11:31",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "11:51",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1134-140",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "11:34",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "11:47",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1140-141",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "11:40",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1141-142",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "11:41",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "12:01",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1144-143",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "11:44",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "11:57",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1146-144",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "11:46",
+      "trainType": "エアポート快特",
+      "destination": "成田スカイアクセス線経由成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "11:59",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "12:08",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1149-145",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "11:49",
+      "trainType": "特急",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "12:09",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "12:17",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1151-146",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "11:51",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "12:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1154-147",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "11:54",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "12:07",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1200-148",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "12:00",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1201-149",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "12:01",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "12:21",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1204-150",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "12:04",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "12:17",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1205-151",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "12:05",
+      "trainType": "快特",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "12:19",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "12:27",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1209-152",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "12:09",
+      "trainType": "特急",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "12:29",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "12:37",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1211-153",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "12:11",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "12:31",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1214-154",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "12:14",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "12:27",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1220-155",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "12:20",
+      "trainType": "急行",
+      "destination": "金沢文庫"
+    },
+    {
+      "id": "monorail-hnd-t3-1221-156",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "12:21",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "12:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1224-157",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "12:24",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "12:37",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1226-158",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "12:26",
+      "trainType": "エアポート快特",
+      "destination": "成田スカイアクセス線経由成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "12:39",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "12:47",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1229-159",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "12:29",
+      "trainType": "特急",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "12:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "12:58",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1231-160",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "12:31",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "12:51",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1234-161",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "12:34",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "12:47",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1240-162",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "12:40",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1241-163",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "12:41",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "13:01",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1244-164",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "12:44",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "12:57",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1245-165",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "12:45",
+      "trainType": "快特",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "12:59",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "13:07",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1249-166",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "12:49",
+      "trainType": "特急",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "13:09",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "13:17",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1251-167",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "12:51",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "13:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1254-168",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "12:54",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "13:07",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1300-169",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "13:00",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1301-170",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "13:01",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "13:21",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1304-171",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "13:04",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "13:17",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1306-172",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "13:06",
+      "trainType": "エアポート快特",
+      "destination": "成田スカイアクセス線経由成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "13:19",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "13:28",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1309-173",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "13:09",
+      "trainType": "特急",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "13:29",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "13:37",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1311-174",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "13:11",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "13:31",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1314-175",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "13:14",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "13:27",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1320-176",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "13:20",
+      "trainType": "急行",
+      "destination": "金沢文庫"
+    },
+    {
+      "id": "monorail-hnd-t3-1321-177",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "13:21",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "13:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1324-178",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "13:24",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "13:37",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1325-179",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "13:25",
+      "trainType": "快特",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "13:39",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "13:47",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1329-180",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "13:29",
+      "trainType": "特急",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "13:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "13:57",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1331-181",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "13:31",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "13:51",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1334-182",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "13:34",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "13:47",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1340-183",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "13:40",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1341-184",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "13:41",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "14:01",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1344-185",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "13:44",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "13:57",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1346-186",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "13:46",
+      "trainType": "エアポート快特",
+      "destination": "成田スカイアクセス線経由成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "13:59",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "14:07",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1349-187",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "13:49",
+      "trainType": "特急",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "14:09",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "14:18",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1351-188",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "13:51",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "14:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1354-189",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "13:54",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "14:07",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1400-190",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "14:00",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1401-191",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "14:01",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "14:21",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1404-192",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "14:04",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "14:17",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1405-193",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "14:05",
+      "trainType": "快特",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "14:19",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "14:27",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1409-194",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "14:09",
+      "trainType": "特急",
+      "destination": "京成佐倉",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "14:29",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "14:37",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1411-195",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "14:11",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "14:31",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1414-196",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "14:14",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "14:27",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1420-197",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "14:20",
+      "trainType": "急行",
+      "destination": "金沢文庫"
+    },
+    {
+      "id": "monorail-hnd-t3-1421-198",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "14:21",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "14:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1424-199",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "14:24",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "14:37",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1426-200",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "14:26",
+      "trainType": "エアポート快特",
+      "destination": "成田スカイアクセス線経由成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "14:39",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "14:48",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1429-201",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "14:29",
+      "trainType": "特急",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "14:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "14:57",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1431-202",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "14:31",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "14:51",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1434-203",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "14:34",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "14:47",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1440-204",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "14:40",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1441-205",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "14:41",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "15:01",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1444-206",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "14:44",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "14:57",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1445-207",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "14:45",
+      "trainType": "快特",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "14:59",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "15:07",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1449-208",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "14:49",
+      "trainType": "特急",
+      "destination": "京成佐倉",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "15:09",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "15:17",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1451-209",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "14:51",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "15:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1454-210",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "14:54",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "15:07",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1500-211",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "15:00",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1501-212",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "15:01",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "15:21",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1504-213",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "15:04",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "15:17",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1506-214",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "15:06",
+      "trainType": "エアポート快特",
+      "destination": "成田スカイアクセス線経由成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "15:19",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "15:27",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1509-215",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "15:09",
+      "trainType": "特急",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "15:29",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "15:36",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1511-216",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "15:11",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "15:31",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1514-217",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "15:14",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "15:27",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1520-218",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "15:20",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1521-219",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "15:21",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "15:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1524-220",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "15:24",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "15:37",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1525-221",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "15:25",
+      "trainType": "快特",
+      "destination": "青砥",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "15:39",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "15:46",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1529-222",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "15:29",
+      "trainType": "特急",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "15:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "15:56",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1531-223",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "15:31",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "15:51",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1534-224",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "15:34",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "15:47",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1539-225",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "15:39",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1541-226",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "15:41",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "16:01",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1544-227",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "15:44",
+      "trainType": "快特",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "15:58",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "16:09",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1544-228",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "15:44",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "15:57",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1549-229",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "15:49",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1551-230",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "15:51",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "16:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1553-231",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "15:53",
+      "trainType": "快特",
+      "destination": "成田スカイアクセス線経由成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "16:07",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "16:15",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1554-232",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "15:54",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "16:07",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1558-233",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "15:58",
+      "trainType": "急行",
+      "destination": "印西牧の原",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "16:19",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "16:26",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1601-234",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "16:01",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1601-235",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "16:01",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "16:21",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1604-236",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "16:04",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "16:17",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1609-237",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "16:09",
+      "trainType": "特急",
+      "destination": "泉岳寺",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "16:28",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1611-238",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "16:11",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "16:31",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1614-239",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "16:14",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "16:27",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1615-240",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "16:15",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-1618-241",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "16:18",
+      "trainType": "急行",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "16:38",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "16:45",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1621-242",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "16:21",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "16:42",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1624-243",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "16:24",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1624-244",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "16:24",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "16:37",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1629-245",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "16:29",
+      "trainType": "急行",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "16:50",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "16:58",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1631-246",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "16:31",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "16:52",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1634-247",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "16:34",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "16:47",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1635-248",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "16:35",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-1640-249",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "16:40",
+      "trainType": "急行",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "17:02",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "17:09",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1641-250",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "16:41",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "17:02",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1644-251",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "16:44",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "16:57",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1645-252",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "16:45",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-1649-253",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "16:49",
+      "trainType": "急行",
+      "destination": "品川",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "17:10",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1649-254",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "16:49",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "17:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1652-255",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "16:52",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "17:06",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1654-256",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "16:54",
+      "trainType": "快特",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "17:13",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "17:21",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1658-257",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "16:58",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "17:19",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1659-258",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "16:59",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-1701-259",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "17:01",
+      "trainType": "急行",
+      "destination": "京成成田",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "17:23",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "17:31",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1701-260",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "17:01",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "17:15",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1705-261",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "17:05",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "17:24",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1709-262",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "17:09",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "17:28",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1710-263",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "17:10",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-1712-264",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "17:12",
+      "trainType": "急行",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "17:34",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "17:42",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1714-265",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "17:14",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "17:33",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1718-266",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "17:18",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "17:37",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1721-267",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "17:21",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1723-268",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "17:23",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "17:42",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1724-269",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "17:24",
+      "trainType": "急行",
+      "destination": "印西牧の原",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "17:45",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "17:54",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1728-270",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "17:28",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "17:47",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1732-271",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "17:32",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1732-272",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "17:32",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "17:51",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1735-273",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "17:35",
+      "trainType": "急行",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "17:56",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "18:05",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1737-274",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "17:37",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "17:56",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1741-275",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "17:41",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "18:00",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1743-276",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "17:43",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-1745-277",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "17:45",
+      "trainType": "急行",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "18:05",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "18:13",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1746-278",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "17:46",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "18:05",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1750-279",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "17:50",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "18:09",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1753-280",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "17:53",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-1755-281",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "17:55",
+      "trainType": "急行",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "18:16",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "18:25",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1755-282",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "17:55",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "18:14",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1759-283",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "17:59",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "18:18",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1801-284",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "18:01",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-1804-285",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "18:04",
+      "trainType": "急行",
+      "destination": "印西牧の原",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "18:26",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "18:35",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1804-286",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "18:04",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "18:23",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1808-287",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "18:08",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "18:27",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1812-288",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "18:12",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1813-289",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "18:13",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "18:32",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1815-290",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "18:15",
+      "trainType": "急行",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "18:38",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "18:48",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1817-291",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "18:17",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "18:36",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1822-292",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "18:22",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "18:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1823-293",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "18:23",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-1825-294",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "18:25",
+      "trainType": "急行",
+      "destination": "印西牧の原",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "18:46",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "18:56",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1826-295",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "18:26",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "18:45",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1831-296",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "18:31",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "18:50",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1833-297",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "18:33",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-1835-298",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "18:35",
+      "trainType": "急行",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "18:55",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "19:03",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1835-299",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "18:35",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "18:54",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1840-300",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "18:40",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "18:59",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1842-301",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "18:42",
+      "trainType": "急行",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "19:05",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "19:15",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1844-302",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "18:44",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1844-303",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "18:44",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "19:03",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1849-304",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "18:49",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "19:08",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1852-305",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "18:52",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-1854-306",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "18:54",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "19:13",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1855-307",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "18:55",
+      "trainType": "急行",
+      "destination": "京成成田",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "19:15",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "19:23",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1859-308",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "18:59",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "19:19",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1902-309",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "19:02",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-1905-310",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "19:05",
+      "trainType": "急行",
+      "destination": "芝山千代田",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "19:24",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "19:32",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1906-311",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "19:06",
+      "trainType": "区間快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "19:22",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1909-312",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "19:09",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "19:29",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1911-313",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "19:11",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-1914-314",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "19:14",
+      "trainType": "急行",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "19:35",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "19:43",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1915-315",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "19:15",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "19:34",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1920-316",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "19:20",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "19:39",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1921-317",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "19:21",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-1924-318",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "19:24",
+      "trainType": "急行",
+      "destination": "京成佐倉",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "19:44",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "19:53",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1926-319",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "19:26",
+      "trainType": "区間快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "19:43",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1930-320",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "19:30",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "19:49",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1931-321",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "19:31",
+      "trainType": "急行",
+      "destination": "金沢文庫"
+    },
+    {
+      "id": "keikyu-hnd-t3-1933-322",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "19:33",
+      "trainType": "急行",
+      "destination": "印西牧の原",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "19:55",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "20:06",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1936-323",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "19:36",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "19:55",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1941-324",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "19:41",
+      "trainType": "急行",
+      "destination": "金沢文庫"
+    },
+    {
+      "id": "monorail-hnd-t3-1942-325",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "19:42",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "20:03",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1944-326",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "19:44",
+      "trainType": "急行",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "20:04",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "20:11",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1945-327",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "19:45",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "19:59",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1951-328",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "19:51",
+      "trainType": "急行",
+      "destination": "芝山千代田",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "20:14",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "20:22",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1952-329",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "19:52",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "20:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-1956-330",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "19:56",
+      "trainType": "急行",
+      "destination": "青砥",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "20:20",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "20:28",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-1958-331",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "19:58",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "20:17",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2001-332",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "20:01",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-2006-333",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "20:06",
+      "trainType": "急行",
+      "destination": "京成成田",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "20:26",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "20:33",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2006-334",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "20:06",
+      "trainType": "区間快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "20:22",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2009-335",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "20:09",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "20:28",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2011-336",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "20:11",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-2016-337",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "20:16",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "20:35",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2018-338",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "20:18",
+      "trainType": "急行",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "20:41",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "20:48",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2022-339",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "20:22",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "20:44",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2023-340",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "20:23",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-2026-341",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "20:26",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "20:39",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2030-342",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "20:30",
+      "trainType": "急行",
+      "destination": "泉岳寺",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "20:52",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2031-343",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "20:31",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "20:50",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2033-344",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "20:33",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-2038-345",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "20:38",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "20:57",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2039-346",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "20:39",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-2043-347",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "20:43",
+      "trainType": "急行",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "21:03",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "21:10",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2046-348",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "20:46",
+      "trainType": "区間快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "21:03",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2049-349",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "20:49",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "21:08",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2050-350",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "20:50",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "keikyu-hnd-t3-2054-351",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "20:54",
+      "trainType": "快特",
+      "destination": "京成成田",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "21:12",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "21:22",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2057-352",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "20:57",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "21:17",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2101-353",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "21:01",
+      "trainType": "急行",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "21:21",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "21:28",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2103-354",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "21:03",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-2106-355",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "21:06",
+      "trainType": "区間快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "21:22",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2109-356",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "21:09",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "21:29",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2111-357",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "21:11",
+      "trainType": "急行",
+      "destination": "泉岳寺",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "21:32",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2114-358",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "21:14",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-2117-359",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "21:17",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "21:36",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2122-360",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "21:22",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-2125-361",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "21:25",
+      "trainType": "区間快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "21:42",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2126-362",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "21:26",
+      "trainType": "快特",
+      "destination": "京成成田",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "21:41",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "21:48",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2129-363",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "21:29",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "21:48",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2132-364",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "21:32",
+      "trainType": "急行",
+      "destination": "青砥",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "21:52",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "22:03",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2134-365",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "21:34",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-2135-366",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "21:35",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "21:54",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2142-367",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "21:42",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "22:04",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2143-368",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "21:43",
+      "trainType": "特急",
+      "destination": "京急久里浜"
+    },
+    {
+      "id": "monorail-hnd-t3-2146-369",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "21:46",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "21:59",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2147-370",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "21:47",
+      "trainType": "快特",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "22:02",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "22:09",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2151-371",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "21:51",
+      "trainType": "急行",
+      "destination": "成田空港",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "22:12",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "22:19",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2155-372",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "21:55",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-2155-373",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "21:55",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "22:13",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2203-374",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "22:03",
+      "trainType": "急行",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "22:23",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "22:30",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2204-375",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "22:04",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "22:22",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2211-376",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "22:11",
+      "trainType": "特急",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-2214-377",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "22:14",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "22:28",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2216-378",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "22:16",
+      "trainType": "急行",
+      "destination": "宗吾参道",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "22:38",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "22:45",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2217-379",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "22:17",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "22:35",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2226-380",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "22:26",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "22:45",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2228-381",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "22:28",
+      "trainType": "急行",
+      "destination": "泉岳寺",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "22:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2237-382",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "22:37",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "22:55",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2238-383",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "22:38",
+      "trainType": "急行",
+      "destination": "印西牧の原",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "22:59",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "23:08",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2245-384",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "22:45",
+      "trainType": "特急",
+      "destination": "金沢文庫"
+    },
+    {
+      "id": "monorail-hnd-t3-2247-385",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "22:47",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "23:00",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2252-386",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "22:52",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "23:10",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2254-387",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "22:54",
+      "trainType": "急行",
+      "destination": "京成高砂",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "23:14",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "23:21",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2259-388",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "22:59",
+      "trainType": "急行",
+      "destination": "逗子・葉山"
+    },
+    {
+      "id": "monorail-hnd-t3-2306-389",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "23:06",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "23:24",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2309-390",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "23:09",
+      "trainType": "急行",
+      "destination": "印旛日本医大",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "23:31",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "大門",
+          "arrivalTime": "23:38",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2319-391",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "23:19",
+      "trainType": "急行",
+      "destination": "品川",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "23:39",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2319-392",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "23:19",
+      "trainType": "空港快速",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "23:33",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2322-393",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "23:22",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "23:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2328-394",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "23:28",
+      "trainType": "急行",
+      "destination": "品川",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "23:47",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2335-395",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "23:35",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "23:53",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2337-396",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "23:37",
+      "trainType": "急行",
+      "destination": "金沢文庫"
+    },
+    {
+      "id": "keikyu-hnd-t3-2345-397",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "23:45",
+      "trainType": "急行",
+      "destination": "品川",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "24:04",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2349-398",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "23:49",
+      "trainType": "普通",
+      "destination": "浜松町",
+      "arrivalInfo": [
+        {
+          "stationName": "浜松町",
+          "arrivalTime": "23:59",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2351-399",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "23:51",
+      "trainType": "急行",
+      "destination": "品川",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "24:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keikyu-hnd-t3-2401-400",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "24:01",
+      "trainType": "普通",
+      "destination": "京急蒲田"
+    },
+    {
+      "id": "keikyu-hnd-t3-2408-401",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "24:08",
+      "trainType": "快特",
+      "destination": "品川",
+      "arrivalInfo": [
+        {
+          "stationName": "品川",
+          "arrivalTime": "24:20",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "monorail-hnd-t3-2410-402",
+      "sourceId": "monorail-hnd-t3",
+      "departureTime": "24:10",
+      "trainType": "区間快速",
+      "destination": "浜松町"
+    },
+    {
+      "id": "keikyu-hnd-t3-2413-403",
+      "sourceId": "keikyu-hnd-t3",
+      "departureTime": "24:13",
+      "trainType": "普通",
+      "destination": "京急蒲田"
+    }
+  ]
+}

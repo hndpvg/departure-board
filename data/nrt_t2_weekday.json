@@ -1,0 +1,5758 @@
+{
+  "metadata": {
+    "schemaVersion": 1,
+    "placeId": "nrt_t2",
+    "serviceType": "weekday",
+    "version": "2026-06-official-snapshot",
+    "lastUpdated": "2026-06-14",
+    "status": "manual",
+    "sources": {
+      "keisei-mainline-nrt-t2": {
+        "status": "manual",
+        "version": "2026-06-official-snapshot",
+        "lastUpdated": "2026-06-14",
+        "sourceUrl": "https://keisei.ekitan.com/search/timetable/station/254-41/d1?dw=0"
+      },
+      "keisei-access-nrt-t2": {
+        "status": "manual",
+        "version": "2026-06-official-snapshot",
+        "lastUpdated": "2026-06-14",
+        "sourceUrl": "https://keisei.ekitan.com/search/timetable/station/682-6/d1?dw=0"
+      },
+      "jr-nrt-t2": {
+        "status": "manual",
+        "version": "2026-06-official-snapshot",
+        "lastUpdated": "2026-06-14",
+        "sourceUrl": "https://timetables.jreast.co.jp/timetable/list0611.html"
+      },
+      "tyo-nrt-nrt-t2": {
+        "status": "manual",
+        "version": "2026-06-official-snapshot",
+        "lastUpdated": "2026-06-14",
+        "sourceUrl": "https://tyo-nrt.com/wp/wp-content/themes/tyo-nrt/files/timetable_new_horizon.pdf"
+      }
+    }
+  },
+  "departures": [
+    {
+      "id": "keisei-mainline-nrt-t2-0520-001",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "05:20",
+      "trainType": "快速",
+      "destination": "羽田空港",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "06:33",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "06:40",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-0544-002",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "05:44",
+      "trainType": "アクセス特急",
+      "destination": "西馬込",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "06:28",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "06:34",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-0550-003",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "05:50",
+      "trainType": "普通",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "07:25",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "07:44",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-0606-004",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "06:06",
+      "trainType": "通勤特急",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "07:22",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "07:33",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-0623-005",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "06:23",
+      "trainType": "アクセス特急",
+      "destination": "三崎口",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "07:04",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "07:12",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-0630-006",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "06:30",
+      "trainType": "快速特急",
+      "destination": "西馬込",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "07:36",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "07:44",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-0655-007",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "06:55",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "08:27",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-0656-008",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "06:56",
+      "trainType": "普通",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "08:46",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "09:00",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-0709-009",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "07:09",
+      "trainType": "アクセス特急",
+      "destination": "西馬込",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "07:52",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "08:00",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-0716-010",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "07:16",
+      "trainType": "普通",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "09:03",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "09:20",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-0720-011",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "07:20",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "08:53",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "09:06",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-0725-012",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "07:25",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "08:55",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-0727-013",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "07:27",
+      "trainType": "スカイライナー",
+      "serviceNumber": "2",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "08:23",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-0733-014",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "07:33",
+      "trainType": "普通",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "09:28",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "09:42",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-0735-015",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "07:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "09:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-0740-016",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "07:40",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "2",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "08:56",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "09:18",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-0743-017",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "07:43",
+      "trainType": "快速特急",
+      "destination": "西馬込",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "08:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "08:57",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-0747-018",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "07:47",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "08:32",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "08:41",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-0753-019",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "07:53",
+      "trainType": "モーニングライナー",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "08:54",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "09:05",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-0755-020",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "07:55",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "09:28",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-0804-021",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "08:04",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "09:36",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-0811-022",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "08:11",
+      "trainType": "特急",
+      "destination": "西馬込",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "09:12",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "09:19",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-0815-023",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "08:15",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "4",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "09:22",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "09:45",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-0815-024",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "08:15",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "09:48",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-0816-025",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "08:16",
+      "trainType": "スカイライナー",
+      "serviceNumber": "4",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "09:10",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-0825-026",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "08:25",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "09:58",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "10:11",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-0831-027",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "08:31",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "09:23",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "09:29",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-0835-028",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "08:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "10:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-0836-029",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "08:36",
+      "trainType": "快速",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "09:51",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "10:02",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-0840-030",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "08:40",
+      "trainType": "普通",
+      "destination": "東京方面"
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-0845-031",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "08:45",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "10:18",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "10:31",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-0853-032",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "08:53",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "6",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "09:58",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "10:20",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-0854-033",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "08:54",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "09:42",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "09:48",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-0859-034",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "08:59",
+      "trainType": "特急",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "10:02",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "10:11",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-0905-035",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "09:05",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "10:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "10:51",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-0907-036",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "09:07",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "10:39",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-0911-037",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "09:11",
+      "trainType": "スカイライナー",
+      "serviceNumber": "6",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "09:55",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-0915-038",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "09:15",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "10:48",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-0920-039",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "09:20",
+      "trainType": "特急",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "10:23",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "10:32",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-0920-040",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "09:20",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "8",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "10:19",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "10:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-0923-041",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "09:23",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "10:13",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "10:19",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-0925-042",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "09:25",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "10:58",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "11:11",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-0935-043",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "09:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "11:03",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-0942-044",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "09:42",
+      "trainType": "スカイライナー",
+      "serviceNumber": "8",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "10:22",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-0945-045",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "09:45",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "11:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "11:21",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-0948-046",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "09:48",
+      "trainType": "特急",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "10:48",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "10:58",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-0949-047",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "09:49",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "10",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "10:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "11:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-0955-048",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "09:55",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "11:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-0956-049",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "09:56",
+      "trainType": "スカイライナー",
+      "serviceNumber": "10",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "10:38",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1002-050",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "10:02",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "11:36",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1005-051",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "10:05",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "11:18",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1006-052",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "10:06",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "10:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "10:59",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1011-053",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "10:11",
+      "trainType": "特急",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "11:14",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "11:26",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1015-054",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "10:15",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "11:28",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "11:41",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1018-055",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "10:18",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "12",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "11:17",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "11:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1022-056",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "10:22",
+      "trainType": "スカイライナー",
+      "serviceNumber": "12",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "11:03",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1025-057",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "10:25",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "11:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1031-058",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "10:31",
+      "trainType": "特急",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "11:34",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "11:44",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1035-059",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "10:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "11:48",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1037-060",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "10:37",
+      "trainType": "スカイライナー",
+      "serviceNumber": "114",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "11:11",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "11:20",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1040-061",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "10:40",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "11:59",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1044-062",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "10:44",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "11:32",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "11:38",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1045-063",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "10:45",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "11:58",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1048-064",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "10:48",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "14",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "11:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "12:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1051-065",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "10:51",
+      "trainType": "特急",
+      "destination": "羽田空港",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "11:57",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "12:05",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1055-066",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "10:55",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "12:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1102-067",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "11:02",
+      "trainType": "スカイライナー",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "11:38",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ],
+      "serviceNumber": "16"
+    },
+    {
+      "id": "jr-nrt-t2-1102-068",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "11:02",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "12:36",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1105-069",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "11:05",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "12:18",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1110-070",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "11:10",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "12:29",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1114-071",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "11:14",
+      "trainType": "快速",
+      "destination": "羽田空港",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "12:38",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "12:46",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1115-072",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "11:15",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "12:28",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1118-073",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "11:18",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "16",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "12:17",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "12:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1121-074",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "11:21",
+      "trainType": "スカイライナー",
+      "serviceNumber": "118",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "11:54",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "12:04",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1125-075",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "11:25",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "12:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1127-076",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "11:27",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "12:09",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "12:19",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1130-077",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "11:30",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "12:49",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1135-078",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "11:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "12:48",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1138-079",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "11:38",
+      "trainType": "快速",
+      "destination": "羽田空港",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "12:57",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "13:06",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1142-080",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "11:42",
+      "trainType": "スカイライナー",
+      "serviceNumber": "20",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "12:18",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1145-081",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "11:45",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "12:58",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1148-082",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "11:48",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "18",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "12:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "13:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1150-083",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "11:50",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "13:09",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1152-084",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "11:52",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "12:48",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "12:58",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1155-085",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "11:55",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "13:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1157-086",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "11:57",
+      "trainType": "快速",
+      "destination": "羽田空港",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "13:18",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "13:25",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1201-087",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "12:01",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "13:36",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1202-088",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "12:02",
+      "trainType": "スカイライナー",
+      "serviceNumber": "22",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "12:38",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1205-089",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "12:05",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "13:18",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1210-090",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "12:10",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "13:29",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1215-091",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "12:15",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "13:28",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1218-092",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "12:18",
+      "trainType": "快速",
+      "destination": "羽田空港",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "13:37",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "13:46",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1222-093",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "12:22",
+      "trainType": "スカイライナー",
+      "serviceNumber": "124",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "12:54",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "13:04",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1223-094",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "12:23",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "20",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "13:17",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "13:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1225-095",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "12:25",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "13:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1230-096",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "12:30",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "13:49",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1232-097",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "12:32",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "13:29",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "13:39",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1235-098",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "12:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "13:48",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1237-099",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "12:37",
+      "trainType": "快速",
+      "destination": "羽田空港",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "13:58",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "14:06",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1237-100",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "12:37",
+      "trainType": "普通",
+      "destination": "東京方面"
+    },
+    {
+      "id": "keisei-access-nrt-t2-1242-101",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "12:42",
+      "trainType": "スカイライナー",
+      "serviceNumber": "26",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "13:18",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1245-102",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "12:45",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "13:58",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1249-103",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "12:49",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "22",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "13:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "14:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1255-104",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "12:55",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "14:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1257-105",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "12:57",
+      "trainType": "快速",
+      "destination": "羽田空港",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "14:17",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "14:26",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1300-106",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "13:00",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "14:19",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1302-107",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "13:02",
+      "trainType": "スカイライナー",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "13:38",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ],
+      "serviceNumber": "28"
+    },
+    {
+      "id": "jr-nrt-t2-1302-108",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "13:02",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "14:36",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1305-109",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "13:05",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "14:18",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1312-110",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "13:12",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "14:09",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "14:18",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1315-111",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "13:15",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "14:28",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1317-112",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "13:17",
+      "trainType": "快速",
+      "destination": "羽田空港",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "14:37",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "14:45",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1317-113",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "13:17",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "24",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "14:17",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "14:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1320-114",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "13:20",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "14:39",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1322-115",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "13:22",
+      "trainType": "スカイライナー",
+      "serviceNumber": "130",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "13:54",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "14:04",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1325-116",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "13:25",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "14:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1330-117",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "13:30",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "14:49",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1335-118",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "13:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "14:48",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1337-119",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "13:37",
+      "trainType": "快速",
+      "destination": "羽田空港",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "14:57",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "15:06",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1340-120",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "13:40",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "14:59",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1342-121",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "13:42",
+      "trainType": "スカイライナー",
+      "serviceNumber": "32",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "14:18",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1345-122",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "13:45",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "14:58",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1348-123",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "13:48",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "26",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "14:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "15:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1352-124",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "13:52",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "14:48",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "14:59",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1355-125",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "13:55",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "15:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1357-126",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "13:57",
+      "trainType": "快速",
+      "destination": "羽田空港",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "15:18",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "15:26",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1400-127",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "14:00",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "15:19",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1401-128",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "14:01",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "15:36",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1402-129",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "14:02",
+      "trainType": "スカイライナー",
+      "serviceNumber": "34",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "14:38",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1405-130",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "14:05",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "15:18",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1415-131",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "14:15",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "15:28",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1418-132",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "14:18",
+      "trainType": "快速",
+      "destination": "羽田空港",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "15:38",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "15:46",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1420-133",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "14:20",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "15:39",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1422-134",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "14:22",
+      "trainType": "スカイライナー",
+      "serviceNumber": "136",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "14:54",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "15:04",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1423-135",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "14:23",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "28",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "15:18",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "15:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1425-136",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "14:25",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "15:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1432-137",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "14:32",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "15:29",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "15:38",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1435-138",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "14:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "15:48",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1437-139",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "14:37",
+      "trainType": "快速",
+      "destination": "西馬込",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "15:55",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "16:03",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1437-140",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "14:37",
+      "trainType": "普通",
+      "destination": "東京方面"
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1440-141",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "14:40",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "15:59",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1442-142",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "14:42",
+      "trainType": "スカイライナー",
+      "serviceNumber": "38",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "15:18",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1445-143",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "14:45",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "15:58",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1449-144",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "14:49",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "30",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "15:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "16:11",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1455-145",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "14:55",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "16:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "16:21",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1457-146",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "14:57",
+      "trainType": "快速",
+      "destination": "京成高砂",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "16:22",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "16:31",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1502-147",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "15:02",
+      "trainType": "スカイライナー",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "15:38",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ],
+      "serviceNumber": "40"
+    },
+    {
+      "id": "jr-nrt-t2-1502-148",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "15:02",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "16:33",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1505-149",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "15:05",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "16:18",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1512-150",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "15:12",
+      "trainType": "アクセス特急",
+      "destination": "西馬込",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "16:08",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "16:16",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1515-151",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "15:15",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "16:28",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "16:41",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1517-152",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "15:17",
+      "trainType": "快速",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "16:34",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "16:44",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1518-153",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "15:18",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "32",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "16:18",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "16:41",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1522-154",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "15:22",
+      "trainType": "スカイライナー",
+      "serviceNumber": "142",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "15:53",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "16:02",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1525-155",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "15:25",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "16:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1535-156",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "15:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "16:48",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1536-157",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "15:36",
+      "trainType": "快速",
+      "destination": "西馬込",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "16:44",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "16:53",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1540-158",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "15:40",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "16:59",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1542-159",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "15:42",
+      "trainType": "スカイライナー",
+      "serviceNumber": "44",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "16:19",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1545-160",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "15:45",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "16:58",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1548-161",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "15:48",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "34",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "16:50",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "17:12",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1552-162",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "15:52",
+      "trainType": "特急",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "16:53",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "17:03",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1555-163",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "15:55",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "17:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1601-164",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "16:01",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "17:26",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1602-165",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "16:02",
+      "trainType": "スカイライナー",
+      "serviceNumber": "46",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "16:38",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1605-166",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "16:05",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "17:18",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "17:31",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1607-167",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "16:07",
+      "trainType": "アクセス特急",
+      "destination": "西馬込",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "16:53",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "17:00",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1611-168",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "16:11",
+      "trainType": "特急",
+      "destination": "西馬込",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "17:14",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "17:22",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1615-169",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "16:15",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "17:28",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1616-170",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "16:16",
+      "trainType": "スカイライナー",
+      "serviceNumber": "148",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "16:55",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "17:05",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1623-171",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "16:23",
+      "trainType": "快速",
+      "destination": "京成高砂",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "17:46",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "17:55",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1623-172",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "16:23",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "36",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "17:22",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "17:43",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1625-173",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "16:25",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "17:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1630-174",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "16:30",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "17:49",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1635-175",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "16:35",
+      "trainType": "普通",
+      "destination": "東京方面"
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1635-176",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "16:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "17:58",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1642-177",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "16:42",
+      "trainType": "スカイライナー",
+      "serviceNumber": "50",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "17:19",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1645-178",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "16:45",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "18:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "18:21",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1647-179",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "16:47",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "17:38",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "17:45",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1648-180",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "16:48",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "38",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "17:49",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "18:13",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1651-181",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "16:51",
+      "trainType": "特急",
+      "destination": "羽田空港",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "17:55",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "18:05",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1655-182",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "16:55",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "18:18",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1701-183",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "17:01",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "18:26",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1702-184",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "17:02",
+      "trainType": "スカイライナー",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "17:38",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ],
+      "serviceNumber": "52"
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1705-185",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "17:05",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "18:28",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "18:41",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1710-186",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "17:10",
+      "trainType": "快速",
+      "destination": "京成高砂",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "18:27",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "18:37",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1715-187",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "17:15",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "18:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1719-188",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "17:19",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "40",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "18:23",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "18:46",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1722-189",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "17:22",
+      "trainType": "スカイライナー",
+      "serviceNumber": "154",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "17:53",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "18:02",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1725-190",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "17:25",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "18:48",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "19:01",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1728-191",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "17:28",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "18:18",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "18:26",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1732-192",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "17:32",
+      "trainType": "特急",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "18:31",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "18:41",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1735-193",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "17:35",
+      "trainType": "普通",
+      "destination": "東京方面"
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1735-194",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "17:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "18:58",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1743-195",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "17:43",
+      "trainType": "スカイライナー",
+      "serviceNumber": "56",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "18:19",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1745-196",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "17:45",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "19:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "19:21",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1748-197",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "17:48",
+      "trainType": "快速",
+      "destination": "京成高砂",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "19:03",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "19:12",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1748-198",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "17:48",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "42",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "18:50",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1755-199",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "17:55",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "19:18",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1803-200",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "18:03",
+      "trainType": "スカイライナー",
+      "serviceNumber": "58",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "18:43",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1804-201",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "18:04",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "19:30",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1805-202",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "18:05",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "19:28",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "19:41",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1807-203",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "18:07",
+      "trainType": "アクセス特急",
+      "destination": "西馬込",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "19:00",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "19:07",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1811-204",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "18:11",
+      "trainType": "特急",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "19:17",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "19:28",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1815-205",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "18:15",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "19:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1818-206",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "18:18",
+      "trainType": "スカイライナー",
+      "serviceNumber": "160",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "18:54",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "19:05",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1819-207",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "18:19",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "44",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "19:21",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "19:45",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1825-208",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "18:25",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "19:48",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "20:01",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1828-209",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "18:28",
+      "trainType": "快速特急",
+      "destination": "西馬込",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "19:30",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "19:37",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1835-210",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "18:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "19:58",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1836-211",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "18:36",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "20:07",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1843-212",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "18:43",
+      "trainType": "スカイライナー",
+      "serviceNumber": "62",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "19:22",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1845-213",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "18:45",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "20:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "20:21",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1847-214",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "18:47",
+      "trainType": "アクセス特急",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "19:30",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "19:39",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1848-215",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "18:48",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "46",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "19:50",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "20:13",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1852-216",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "18:52",
+      "trainType": "快速",
+      "destination": "西馬込",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "20:08",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "20:15",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1855-217",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "18:55",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "20:18",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1856-218",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "18:56",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "20:29",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1903-219",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "19:03",
+      "trainType": "スカイライナー",
+      "serviceNumber": "64",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "19:44",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1905-220",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "19:05",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "20:28",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "20:41",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1913-221",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "19:13",
+      "trainType": "特急",
+      "destination": "西馬込",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "20:18",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "20:27",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1915-222",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "19:15",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "20:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1920-223",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "19:20",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "48",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "20:15",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "20:40",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1923-224",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "19:23",
+      "trainType": "スカイライナー",
+      "serviceNumber": "166",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "19:55",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "20:05",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1925-225",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "19:25",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "20:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "20:51",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1928-226",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "19:28",
+      "trainType": "アクセス特急",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "20:20",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "20:31",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1931-227",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "19:31",
+      "trainType": "特急",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "20:35",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "20:47",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1935-228",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "19:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "20:48",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1940-229",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "19:40",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "21:03",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-1944-230",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "19:44",
+      "trainType": "スカイライナー",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "20:20",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ],
+      "serviceNumber": "68"
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1945-231",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "19:45",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "20:58",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "21:11",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-1952-232",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "19:52",
+      "trainType": "特急",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "20:52",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "21:02",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-1953-233",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "19:53",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "50",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "20:56",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "21:18",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-1955-234",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "19:55",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "21:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2004-235",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "20:04",
+      "trainType": "スカイライナー",
+      "serviceNumber": "70",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "20:40",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-2005-236",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "20:05",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "21:18",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "21:31",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2008-237",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "20:08",
+      "trainType": "アクセス特急",
+      "destination": "西馬込",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "20:50",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "20:57",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-2013-238",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "20:13",
+      "trainType": "特急",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "21:15",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "21:24",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-2013-239",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "20:13",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "21:40",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2023-240",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "20:23",
+      "trainType": "スカイライナー",
+      "serviceNumber": "172",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "20:55",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "21:07",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-2025-241",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "20:25",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "21:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "21:51",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-2031-242",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "20:31",
+      "trainType": "特急",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "21:37",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "21:48",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-2031-243",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "20:31",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "22:03",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2038-244",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "20:38",
+      "trainType": "アクセス特急",
+      "destination": "羽田空港",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "21:29",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "21:36",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2043-245",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "20:43",
+      "trainType": "スカイライナー",
+      "serviceNumber": "74",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "21:20",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-2045-246",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "20:45",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "21:58",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-2047-247",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "20:47",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "52",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "21:48",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "22:09",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-2052-248",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "20:52",
+      "trainType": "快速",
+      "destination": "京成高砂",
+      "routeName": "京成本線"
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-2055-249",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "20:55",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "22:08",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "22:21",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2103-250",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "21:03",
+      "trainType": "スカイライナー",
+      "serviceNumber": "76",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "21:42",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-2105-251",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "21:05",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "22:18",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2112-252",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "21:12",
+      "trainType": "アクセス特急",
+      "destination": "西馬込",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "22:01",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "押上",
+          "arrivalTime": "22:08",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-2115-253",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "21:15",
+      "trainType": "バス",
+      "destination": "銀座駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "22:28",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        },
+        {
+          "stationName": "銀座駅",
+          "arrivalTime": "22:41",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-2117-254",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "21:17",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "22:35",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-2118-255",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "21:18",
+      "trainType": "普通",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "22:40",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "22:54",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2124-256",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "21:24",
+      "trainType": "スカイライナー",
+      "serviceNumber": "178",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "21:54",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "22:04",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-2125-257",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "21:25",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "22:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-2134-258",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "21:34",
+      "trainType": "普通",
+      "destination": "東京方面"
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-2135-259",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "21:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "22:48",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-2137-260",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "21:37",
+      "trainType": "特急",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "22:37",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "22:46",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2144-261",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "21:44",
+      "trainType": "スカイライナー",
+      "serviceNumber": "80",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "22:23",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-2147-262",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "21:47",
+      "trainType": "成田エクスプレス",
+      "destination": "新宿方面",
+      "serviceNumber": "54",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "22:43",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "新宿",
+          "arrivalTime": "23:12",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-2150-263",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "21:50",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "23:03",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-2157-264",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "21:57",
+      "trainType": "快速",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "23:05",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "23:15",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2203-265",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "22:03",
+      "trainType": "スカイライナー",
+      "serviceNumber": "182",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "22:33",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "22:43",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-2205-266",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "22:05",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "23:18",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2207-267",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "22:07",
+      "trainType": "アクセス特急",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "22:50",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "22:59",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "jr-nrt-t2-2213-268",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "22:13",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "23:35",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-2217-269",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "22:17",
+      "trainType": "普通",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "23:36",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "23:50",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-2220-270",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "22:20",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "23:33",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2223-271",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "22:23",
+      "trainType": "スカイライナー",
+      "serviceNumber": "184",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "22:53",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "23:03",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-2235-272",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "22:35",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "23:48",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-2236-273",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "22:36",
+      "trainType": "快速",
+      "destination": "京成上野",
+      "routeName": "京成本線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "23:44",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "23:54",
+          "timeType": "departure",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2243-274",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "22:43",
+      "trainType": "スカイライナー",
+      "serviceNumber": "186",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "23:13",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "23:24",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-2250-275",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "22:50",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "24:03",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-2258-276",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "22:58",
+      "trainType": "普通",
+      "destination": "京成高砂",
+      "routeName": "京成本線"
+    },
+    {
+      "id": "jr-nrt-t2-2300-277",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "23:00",
+      "trainType": "快速",
+      "destination": "東京方面",
+      "arrivalInfo": [
+        {
+          "stationName": "東京",
+          "arrivalTime": "24:29",
+          "timeType": "arrival",
+          "source": "train-detail",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2303-278",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "23:03",
+      "trainType": "スカイライナー",
+      "serviceNumber": "188",
+      "destination": "京成上野",
+      "routeName": "成田スカイアクセス線",
+      "arrivalInfo": [
+        {
+          "stationName": "青砥",
+          "arrivalTime": "23:33",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        },
+        {
+          "stationName": "日暮里",
+          "arrivalTime": "23:43",
+          "timeType": "arrival",
+          "source": "station-timetable",
+          "confidence": "matched"
+        }
+      ]
+    },
+    {
+      "id": "keisei-access-nrt-t2-2311-279",
+      "sourceId": "keisei-access-nrt-t2",
+      "departureTime": "23:11",
+      "trainType": "アクセス特急",
+      "destination": "京成高砂",
+      "routeName": "成田スカイアクセス線"
+    },
+    {
+      "id": "tyo-nrt-nrt-t2-2325-280",
+      "sourceId": "tyo-nrt-nrt-t2",
+      "departureTime": "23:25",
+      "trainType": "バス",
+      "destination": "東京駅",
+      "operatorLabel": "エアポートバス東京・成田",
+      "arrivalInfo": [
+        {
+          "stationName": "東京駅",
+          "arrivalTime": "24:38",
+          "timeType": "arrival",
+          "source": "manual",
+          "confidence": "manual"
+        }
+      ]
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-2332-281",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "23:32",
+      "trainType": "普通",
+      "destination": "宗吾参道",
+      "routeName": "京成本線"
+    },
+    {
+      "id": "jr-nrt-t2-2344-282",
+      "sourceId": "jr-nrt-t2",
+      "departureTime": "23:44",
+      "trainType": "快速",
+      "destination": "東京方面"
+    },
+    {
+      "id": "keisei-mainline-nrt-t2-2412-283",
+      "sourceId": "keisei-mainline-nrt-t2",
+      "departureTime": "24:12",
+      "trainType": "普通",
+      "destination": "宗吾参道",
+      "routeName": "京成本線"
+    }
+  ]
+}

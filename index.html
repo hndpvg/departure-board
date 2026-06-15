@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07111f" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Departure Board" />
+    <title>Departure Board</title>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+    <link rel="stylesheet" href="./styles.css?v=20260615-10" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">DEPARTURE BOARD</p>
+          <label class="place-control">
+            <span class="visually-hidden">場所</span>
+            <select id="place-select" aria-label="場所"></select>
+          </label>
+          <label class="service-type-control">
+            <span>運行区分</span>
+            <select id="service-type-select" aria-label="運行区分"></select>
+          </label>
+        </div>
+        <div class="clock" aria-label="現在時刻">
+          <span id="clock-time">--:--</span>
+          <span id="clock-date">----</span>
+        </div>
+      </header>
+
+      <section class="board-controls" aria-label="発車案内の操作">
+        <button id="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-panel">
+          表示設定
+        </button>
+        <button id="refresh-button" type="button">更新</button>
+      </section>
+
+      <section id="filter-panel" class="filter-panel" hidden>
+        <div class="filter-panel-heading">
+          <h2>表示設定（駅・種別・行先）</h2>
+          <button id="filter-reset" type="button">初期設定に戻す</button>
+        </div>
+        <div id="filter-sources" class="filter-sources"></div>
+      </section>
+
+      <section class="board" aria-live="polite">
+        <div class="board-heading">
+          <button id="time-mode-toggle" class="time-mode-toggle" type="button">
+            <span id="time-mode-label">あと</span>
+            <span class="toggle-hint">切替</span>
+          </button>
+          <span>駅・種別・行先</span>
+          <span>参考到着時刻</span>
+        </div>
+        <div id="departures" class="departure-list"></div>
+      </section>
+
+      <p id="status" class="status">時刻表を読み込んでいます。</p>
+
+      <footer>
+        <p>予定時刻を表示しています。遅延・運休は反映されません。</p>
+        <p class="reference-time-note">※参考到着地点の時刻は、取得できた発車・到着時刻のみ表示しています。表示がない場合があります。</p>
+        <p id="data-note"></p>
+        <p id="data-status" class="data-status">データ: --</p>
+      </footer>
+    </main>
+
+    <template id="departure-template">
+      <article class="departure">
+        <button class="departure-time-toggle" type="button"></button>
+        <div class="departure-summary">
+          <div class="operator-cell">
+            <span class="operator-mark"></span>
+            <span class="operator-name"></span>
+          </div>
+          <div class="service-cell">
+            <span class="train-type"></span>
+            <span class="destination"></span>
+          </div>
+        </div>
+        <ul class="arrival-info" aria-label="参考到着時刻"></ul>
+      </article>
+    </template>
+
+    <script src="./app.js?v=20260615-2" type="module"></script>
+  </body>
+</html>

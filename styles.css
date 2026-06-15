@@ -1,0 +1,611 @@
+:root {
+  color-scheme: dark;
+  font-family:
+    "Hiragino Sans", "Yu Gothic UI", "Yu Gothic", system-ui, sans-serif;
+  background: #050b14;
+  color: #f5f8fc;
+  font-synthesis: none;
+  --category-keikyu-fast-bg: #c2410c;
+  --category-keikyu-fast-text: #fff7ed;
+  --category-keikyu-express-bg: #1d4ed8;
+  --category-keikyu-express-text: #eff6ff;
+  --category-monorail-airport-rapid-bg: #7e22ce;
+  --category-monorail-airport-rapid-text: #faf5ff;
+  --category-monorail-section-rapid-bg: #15803d;
+  --category-monorail-section-rapid-text: #f0fdf4;
+  --category-keisei-skyliner-bg: #7e22ce;
+  --category-keisei-skyliner-text: #faf5ff;
+  --category-keisei-access-bg: #c2410c;
+  --category-keisei-access-text: #fff7ed;
+  --category-keisei-mainline-bg: #15803d;
+  --category-keisei-mainline-text: #f0fdf4;
+  --category-jr-nex-bg: #b91c1c;
+  --category-jr-nex-text: #fff1f2;
+  --category-airport-bus-bg: #475569;
+  --category-airport-bus-text: #f8fafc;
+  --category-local-rail-bg: #475569;
+  --category-local-rail-text: #f8fafc;
+  --category-default-bg: #334155;
+  --category-default-text: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at 90% -10%, rgba(43, 111, 180, 0.32), transparent 38%),
+    #050b14;
+}
+
+button {
+  font: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.app-shell {
+  width: min(100%, 960px);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 24px 18px 32px;
+}
+
+.topbar,
+.board-controls,
+.operator-cell,
+.service-cell {
+  display: flex;
+  align-items: center;
+}
+
+.topbar {
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.eyebrow,
+.arrival-info,
+.status,
+footer {
+  color: #8fa2b8;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+
+.place-control select {
+  max-width: min(70vw, 520px);
+  padding: 2px 28px 2px 0;
+  border: 0;
+  background: transparent;
+  color: #f5f8fc;
+  cursor: pointer;
+  font-size: clamp(1.35rem, 5vw, 2rem);
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.clock {
+  display: grid;
+  flex: 0 0 auto;
+  text-align: right;
+}
+
+#clock-time {
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: clamp(1.7rem, 8vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.08em;
+}
+
+#clock-date {
+  margin-top: 8px;
+  color: #8fa2b8;
+  font-size: 0.74rem;
+}
+
+.board-controls {
+  justify-content: flex-end;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.service-type-control {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  width: max-content;
+  margin-top: 10px;
+  color: #8fa2b8;
+  font-size: 0.66rem;
+  font-weight: 700;
+}
+
+.service-type-control select,
+.place-control select option {
+  background: #12233a;
+  color: #d8e5f1;
+}
+
+.service-type-control select {
+  padding: 4px 24px 4px 8px;
+  border: 1px solid #35516e;
+  border-radius: 7px;
+  background: #12233a;
+  color: #d8e5f1;
+  cursor: pointer;
+  font: inherit;
+}
+
+.service-type-control select:focus-visible {
+  outline: 2px solid #557fa8;
+  outline-offset: 2px;
+}
+
+.pill {
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: #1d334b;
+  color: #c8d8e8;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+#refresh-button,
+#filter-toggle,
+#filter-reset {
+  padding: 7px 12px;
+  border: 1px solid #35516e;
+  border-radius: 8px;
+  background: transparent;
+  color: #e5edf5;
+  cursor: pointer;
+}
+
+.filter-panel {
+  margin-bottom: 14px;
+  padding: 14px;
+  border: 1px solid #263d56;
+  border-radius: 12px;
+  background: #0b1929;
+}
+
+.filter-panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.filter-panel h2,
+.filter-panel h3 {
+  margin: 0;
+}
+
+.filter-panel h2 {
+  font-size: 0.9rem;
+}
+
+.filter-panel h3 {
+  font-size: 0.8rem;
+}
+
+#filter-reset {
+  padding: 5px 8px;
+  color: #9fb2c5;
+  font-size: 0.65rem;
+}
+
+.filter-sources {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.filter-source {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid #1d3349;
+  border-radius: 9px;
+  background: #0e1e30;
+}
+
+.filter-source fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin: 0;
+  padding: 8px;
+  border: 1px solid #253b51;
+  border-radius: 7px;
+}
+
+.filter-source legend {
+  padding: 0 4px;
+  color: #8297ac;
+  font-size: 0.64rem;
+  font-weight: 700;
+}
+
+.filter-source label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #c5d2df;
+  font-size: 0.68rem;
+}
+
+.filter-source input {
+  accent-color: #4d9bd8;
+}
+
+.filter-enabled {
+  font-weight: 800;
+}
+
+.board {
+  overflow: hidden;
+  border: 1px solid #1b2c40;
+  border-radius: 16px;
+  background: #081321;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.25);
+}
+
+.board-heading,
+.departure {
+  display: grid;
+  grid-template-columns: 100px minmax(220px, 1fr) minmax(260px, 1.25fr);
+  gap: 16px;
+  align-items: center;
+}
+
+.board-heading {
+  padding: 8px 14px;
+  background: #12233a;
+  color: #8fa2b8;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.time-mode-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: max-content;
+  padding: 3px 7px;
+  border: 1px solid #35516e;
+  border-radius: 6px;
+  background: #182c42;
+  color: #d8e5f1;
+  cursor: pointer;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+}
+
+.toggle-hint {
+  color: #7f98b1;
+  font-size: 0.56rem;
+  letter-spacing: 0;
+}
+
+.departure {
+  min-height: 82px;
+  padding: 14px;
+  border-top: 1px solid #17283b;
+}
+
+.departure:first-child {
+  border-top: 0;
+  background: linear-gradient(90deg, rgba(255, 212, 90, 0.07), transparent);
+}
+
+.departure-time-toggle,
+.arrival-info time {
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.departure-time-toggle {
+  width: max-content;
+  padding: 7px 5px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: #ffd45a;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.departure-time-toggle:hover,
+.departure-time-toggle:focus-visible,
+.time-mode-toggle:hover,
+.time-mode-toggle:focus-visible {
+  background: #20364d;
+  outline: none;
+}
+
+.departure-summary {
+  display: grid;
+  gap: 7px;
+  min-width: 0;
+}
+
+.operator-cell,
+.service-cell {
+  gap: 7px;
+  min-width: 0;
+}
+
+.operator-mark {
+  flex: 0 0 auto;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--operator-color);
+  box-shadow: 0 0 12px var(--operator-color);
+}
+
+.operator-name {
+  color: #aebfd0;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.train-type {
+  flex: 0 0 auto;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: var(--category-default-bg);
+  color: var(--category-default-text);
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.display-category-keikyu-fast {
+  background: var(--category-keikyu-fast-bg);
+  color: var(--category-keikyu-fast-text);
+}
+
+.display-category-keikyu-express {
+  background: var(--category-keikyu-express-bg);
+  color: var(--category-keikyu-express-text);
+}
+
+.display-category-monorail-airport-rapid {
+  background: var(--category-monorail-airport-rapid-bg);
+  color: var(--category-monorail-airport-rapid-text);
+}
+
+.display-category-monorail-section-rapid {
+  background: var(--category-monorail-section-rapid-bg);
+  color: var(--category-monorail-section-rapid-text);
+}
+
+.display-category-keisei-skyliner {
+  background: var(--category-keisei-skyliner-bg);
+  color: var(--category-keisei-skyliner-text);
+}
+
+.display-category-keisei-access {
+  background: var(--category-keisei-access-bg);
+  color: var(--category-keisei-access-text);
+}
+
+.display-category-keisei-mainline {
+  background: var(--category-keisei-mainline-bg);
+  color: var(--category-keisei-mainline-text);
+}
+
+.display-category-jr-nex {
+  background: var(--category-jr-nex-bg);
+  color: var(--category-jr-nex-text);
+}
+
+.display-category-airport-bus {
+  background: var(--category-airport-bus-bg);
+  color: var(--category-airport-bus-text);
+}
+
+.display-category-local-rail {
+  background: var(--category-local-rail-bg);
+  color: var(--category-local-rail-text);
+}
+
+.display-category-default {
+  background: var(--category-default-bg);
+  color: var(--category-default-text);
+}
+
+.destination {
+  overflow: hidden;
+  font-size: 1rem;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.arrival-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 16px;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.arrival-info:empty {
+  display: none;
+}
+
+.arrival-info li {
+  display: grid;
+  gap: 2px;
+  min-width: 58px;
+  white-space: nowrap;
+}
+
+.departure[data-source-id="monorail-hnd-t3"] .arrival-info::before {
+  content: "";
+  display: block;
+  flex: 0 0 58px;
+}
+
+.arrival-station {
+  color: #8297ac;
+  font-size: 0.64rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.arrival-time {
+  color: #c8d8e8;
+  font-size: 0.82rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.status {
+  margin: 16px 2px;
+  font-size: 0.78rem;
+}
+
+.status:empty {
+  display: none;
+}
+
+footer {
+  margin-top: 26px;
+  font-size: 0.68rem;
+  line-height: 1.7;
+}
+
+footer p {
+  margin: 3px 0;
+}
+
+.data-status {
+  color: #6f859b;
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.empty {
+  padding: 48px 20px;
+  color: #aebdcb;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .app-shell {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .board-heading,
+  .departure {
+    grid-template-columns: 78px minmax(130px, 1fr) minmax(125px, 1fr);
+    gap: 8px;
+  }
+
+  .board-heading {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .departure {
+    align-items: start;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .departure-time-toggle {
+    padding-top: 5px;
+    font-size: 0.88rem;
+  }
+
+  .service-cell {
+    flex-wrap: wrap;
+  }
+
+  .arrival-info {
+    gap: 7px 12px;
+    padding-top: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-shell {
+    padding-top: 18px;
+  }
+
+  .topbar {
+    align-items: end;
+  }
+
+  .place-control select {
+    max-width: 68vw;
+  }
+
+  .eyebrow {
+    display: none;
+  }
+
+  .board-heading {
+    grid-template-columns: 72px minmax(118px, 1fr) minmax(105px, 0.9fr);
+    font-size: 0.58rem;
+    letter-spacing: 0.03em;
+  }
+
+  .departure {
+    grid-template-columns: 72px minmax(118px, 1fr) minmax(105px, 0.9fr);
+    min-height: 94px;
+  }
+
+  .toggle-hint {
+    display: none;
+  }
+
+  .operator-name {
+    font-size: 0.66rem;
+  }
+
+  .destination {
+    font-size: 0.92rem;
+  }
+
+  .arrival-station {
+    font-size: 0.59rem;
+  }
+
+  .arrival-time {
+    font-size: 0.74rem;
+  }
+}
