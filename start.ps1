@@ -21,9 +21,8 @@ function Test-Server {
 
 function Find-Python {
   $candidates = @(
-    "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe",
-    "python",
-    "py"
+    "py",
+    "python"
   )
 
   foreach ($candidate in $candidates) {
@@ -44,10 +43,8 @@ if (-not (Test-Server)) {
   $python = Find-Python
   if (-not $python) {
     Add-Type -AssemblyName PresentationFramework
-    [System.Windows.MessageBox]::Show(
-      "Python was not found. Install Python and open start.bat again.",
-      "Airport Departure Board"
-    ) | Out-Null
+    $message = 'Python was not found. Install Python 3.x, then open start.bat again.'
+    [System.Windows.MessageBox]::Show($message, 'Airport Departure Board') | Out-Null
     exit 1
   }
 
