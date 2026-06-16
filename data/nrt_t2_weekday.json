@@ -43,15 +43,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "06:33",
+          "stationName": "押上",
+          "arrivalTime": "06:40",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "06:40",
+          "stationName": "日本橋",
+          "arrivalTime": "06:52",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -67,15 +67,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "06:28",
+          "stationName": "押上",
+          "arrivalTime": "06:34",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "06:34",
+          "stationName": "日本橋",
+          "arrivalTime": "06:47",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -90,13 +90,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "07:25",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "07:44",
@@ -115,13 +108,6 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "07:22",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "07:33",
           "timeType": "departure",
@@ -139,15 +125,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "07:04",
+          "stationName": "押上",
+          "arrivalTime": "07:12",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "07:12",
+          "stationName": "日本橋",
+          "arrivalTime": "07:25",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -163,15 +149,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "07:36",
+          "stationName": "押上",
+          "arrivalTime": "07:44",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "07:44",
+          "stationName": "日本橋",
+          "arrivalTime": "07:58",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -203,13 +189,6 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "08:46",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "09:00",
           "timeType": "departure",
@@ -227,15 +206,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "07:52",
+          "stationName": "押上",
+          "arrivalTime": "08:00",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "08:00",
+          "stationName": "日本橋",
+          "arrivalTime": "08:14",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -250,13 +229,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "09:03",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "09:20",
@@ -277,13 +249,6 @@
         {
           "stationName": "東京駅",
           "arrivalTime": "08:53",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "09:06",
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
@@ -333,13 +298,6 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "09:28",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "09:42",
           "timeType": "departure",
@@ -370,20 +328,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "07:40",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "2",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "08:56",
+          "arrivalTime": "08:54",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "09:18",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -398,15 +349,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "08:49",
+          "stationName": "押上",
+          "arrivalTime": "08:57",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "08:57",
+          "stationName": "日本橋",
+          "arrivalTime": "09:10",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -422,15 +373,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "08:32",
+          "stationName": "押上",
+          "arrivalTime": "08:41",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "08:41",
+          "stationName": "日本橋",
+          "arrivalTime": "08:54",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -445,13 +396,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "08:54",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "09:05",
@@ -503,15 +447,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "09:12",
+          "stationName": "押上",
+          "arrivalTime": "09:19",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "09:19",
+          "stationName": "日本橋",
+          "arrivalTime": "09:31",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -523,20 +467,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "08:15",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿",
       "serviceNumber": "4",
       "arrivalInfo": [
         {
           "stationName": "東京",
           "arrivalTime": "09:22",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "09:45",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -591,13 +528,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "10:11",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -610,15 +540,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "09:23",
+          "stationName": "押上",
+          "arrivalTime": "09:29",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "09:29",
+          "stationName": "日本橋",
+          "arrivalTime": "09:40",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -651,13 +581,6 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "09:51",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "10:02",
           "timeType": "departure",
@@ -687,13 +610,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "10:31",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -702,20 +618,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "08:53",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "6",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "09:58",
+          "arrivalTime": "09:56",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "10:20",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -730,15 +639,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "09:42",
+          "stationName": "押上",
+          "arrivalTime": "09:48",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "09:48",
+          "stationName": "日本橋",
+          "arrivalTime": "10:01",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -753,13 +662,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "10:02",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "10:11",
@@ -780,13 +682,6 @@
         {
           "stationName": "東京駅",
           "arrivalTime": "10:38",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "10:51",
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
@@ -853,13 +748,6 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "10:23",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "10:32",
           "timeType": "departure",
@@ -873,20 +761,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "09:20",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿",
       "serviceNumber": "8",
       "arrivalInfo": [
         {
           "stationName": "東京",
           "arrivalTime": "10:19",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "10:41",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -901,15 +782,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "10:13",
+          "stationName": "押上",
+          "arrivalTime": "10:19",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "10:19",
+          "stationName": "日本橋",
+          "arrivalTime": "10:30",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -927,13 +808,6 @@
         {
           "stationName": "東京駅",
           "arrivalTime": "10:58",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "11:11",
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
@@ -989,13 +863,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "11:21",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -1007,13 +874,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "10:48",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "10:58",
@@ -1028,20 +888,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "09:49",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "10",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "10:49",
+          "arrivalTime": "10:47",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "11:11",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1124,15 +977,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "10:49",
+          "stationName": "押上",
+          "arrivalTime": "10:59",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "10:59",
+          "stationName": "日本橋",
+          "arrivalTime": "11:09",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -1147,13 +1000,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "11:14",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "11:26",
@@ -1177,13 +1023,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "11:41",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -1192,20 +1031,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "10:18",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿",
       "serviceNumber": "12",
       "arrivalInfo": [
         {
           "stationName": "東京",
           "arrivalTime": "11:17",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "11:41",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1255,13 +1087,6 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "11:34",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "11:44",
           "timeType": "departure",
@@ -1297,13 +1122,6 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "11:11",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "11:20",
           "timeType": "arrival",
@@ -1318,16 +1136,7 @@
       "departureTime": "10:40",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "11:59",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "keisei-access-nrt-t2-1044-062",
@@ -1338,15 +1147,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "11:32",
+          "stationName": "押上",
+          "arrivalTime": "11:38",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "11:38",
+          "stationName": "日本橋",
+          "arrivalTime": "11:50",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -1375,20 +1184,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "10:48",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "14",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "11:49",
+          "arrivalTime": "11:46",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "12:11",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1403,15 +1205,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "11:57",
+          "stationName": "押上",
+          "arrivalTime": "12:05",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "12:05",
+          "stationName": "日本橋",
+          "arrivalTime": "12:18",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -1492,16 +1294,7 @@
       "departureTime": "11:10",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "12:29",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "keisei-mainline-nrt-t2-1114-071",
@@ -1512,15 +1305,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "12:38",
+          "stationName": "押上",
+          "arrivalTime": "12:46",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "12:46",
+          "stationName": "日本橋",
+          "arrivalTime": "12:59",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -1549,20 +1342,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "11:18",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿",
       "serviceNumber": "16",
       "arrivalInfo": [
         {
           "stationName": "東京",
           "arrivalTime": "12:17",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "12:41",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1577,13 +1363,6 @@
       "destination": "京成上野",
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "11:54",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "12:04",
@@ -1619,15 +1398,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "12:09",
+          "stationName": "押上",
+          "arrivalTime": "12:19",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "12:19",
+          "stationName": "日本橋",
+          "arrivalTime": "12:30",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -1640,16 +1419,7 @@
       "departureTime": "11:30",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "12:49",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "tyo-nrt-nrt-t2-1135-078",
@@ -1677,15 +1447,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "12:57",
+          "stationName": "押上",
+          "arrivalTime": "13:06",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "13:06",
+          "stationName": "日本橋",
+          "arrivalTime": "13:19",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -1732,20 +1502,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "11:48",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "18",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "12:49",
+          "arrivalTime": "12:46",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "13:11",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1757,16 +1520,7 @@
       "departureTime": "11:50",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "13:09",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "keisei-access-nrt-t2-1152-084",
@@ -1777,15 +1531,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "12:48",
+          "stationName": "押上",
+          "arrivalTime": "12:58",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "12:58",
+          "stationName": "日本橋",
+          "arrivalTime": "13:10",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -1818,15 +1572,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "13:18",
+          "stationName": "押上",
+          "arrivalTime": "13:25",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "13:25",
+          "stationName": "日本橋",
+          "arrivalTime": "13:38",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -1890,16 +1644,7 @@
       "departureTime": "12:10",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "13:29",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "tyo-nrt-nrt-t2-1215-091",
@@ -1927,15 +1672,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "13:37",
+          "stationName": "押上",
+          "arrivalTime": "13:46",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "13:46",
+          "stationName": "日本橋",
+          "arrivalTime": "13:59",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -1952,13 +1697,6 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "12:54",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "13:04",
           "timeType": "arrival",
@@ -1972,20 +1710,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "12:23",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿",
       "serviceNumber": "20",
       "arrivalInfo": [
         {
           "stationName": "東京",
           "arrivalTime": "13:17",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "13:41",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2014,16 +1745,7 @@
       "departureTime": "12:30",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "13:49",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "keisei-access-nrt-t2-1232-097",
@@ -2034,15 +1756,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "13:29",
+          "stationName": "押上",
+          "arrivalTime": "13:39",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "13:39",
+          "stationName": "日本橋",
+          "arrivalTime": "13:50",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -2075,15 +1797,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "13:58",
+          "stationName": "押上",
+          "arrivalTime": "14:06",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "14:06",
+          "stationName": "日本橋",
+          "arrivalTime": "14:19",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -2137,20 +1859,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "12:49",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "22",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "13:49",
+          "arrivalTime": "13:47",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "14:11",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2182,15 +1897,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "14:17",
+          "stationName": "押上",
+          "arrivalTime": "14:26",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "14:26",
+          "stationName": "日本橋",
+          "arrivalTime": "14:39",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -2203,16 +1918,7 @@
       "departureTime": "13:00",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "14:19",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "keisei-access-nrt-t2-1302-107",
@@ -2274,15 +1980,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "14:09",
+          "stationName": "押上",
+          "arrivalTime": "14:18",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "14:18",
+          "stationName": "日本橋",
+          "arrivalTime": "14:30",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -2315,15 +2021,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "14:37",
+          "stationName": "押上",
+          "arrivalTime": "14:45",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "14:45",
+          "stationName": "日本橋",
+          "arrivalTime": "14:58",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -2335,20 +2041,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "13:17",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿",
       "serviceNumber": "24",
       "arrivalInfo": [
         {
           "stationName": "東京",
           "arrivalTime": "14:17",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "14:41",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2360,16 +2059,7 @@
       "departureTime": "13:20",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "14:39",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "keisei-access-nrt-t2-1322-115",
@@ -2380,13 +2070,6 @@
       "destination": "京成上野",
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "13:54",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "14:04",
@@ -2419,16 +2102,7 @@
       "departureTime": "13:30",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "14:49",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "tyo-nrt-nrt-t2-1335-118",
@@ -2456,15 +2130,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "14:57",
+          "stationName": "押上",
+          "arrivalTime": "15:06",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "15:06",
+          "stationName": "日本橋",
+          "arrivalTime": "15:19",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -2477,16 +2151,7 @@
       "departureTime": "13:40",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "14:59",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "keisei-access-nrt-t2-1342-121",
@@ -2528,20 +2193,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "13:48",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "26",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "14:49",
+          "arrivalTime": "14:47",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "15:11",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2556,15 +2214,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "14:48",
+          "stationName": "押上",
+          "arrivalTime": "14:59",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "14:59",
+          "stationName": "日本橋",
+          "arrivalTime": "15:10",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -2597,15 +2255,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "15:18",
+          "stationName": "押上",
+          "arrivalTime": "15:26",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "15:26",
+          "stationName": "日本橋",
+          "arrivalTime": "15:39",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -2618,16 +2276,7 @@
       "departureTime": "14:00",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "15:19",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "jr-nrt-t2-1401-128",
@@ -2706,15 +2355,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "15:38",
+          "stationName": "押上",
+          "arrivalTime": "15:46",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "15:46",
+          "stationName": "日本橋",
+          "arrivalTime": "15:59",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -2727,16 +2376,7 @@
       "departureTime": "14:20",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "15:39",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "keisei-access-nrt-t2-1422-134",
@@ -2747,13 +2387,6 @@
       "destination": "京成上野",
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "14:54",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "15:04",
@@ -2768,20 +2401,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "14:23",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿",
       "serviceNumber": "28",
       "arrivalInfo": [
         {
           "stationName": "東京",
           "arrivalTime": "15:18",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "15:41",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2813,15 +2439,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "15:29",
+          "stationName": "押上",
+          "arrivalTime": "15:38",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "15:38",
+          "stationName": "日本橋",
+          "arrivalTime": "15:49",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -2854,15 +2480,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "15:55",
+          "stationName": "押上",
+          "arrivalTime": "16:03",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "16:03",
+          "stationName": "日本橋",
+          "arrivalTime": "16:16",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -2882,16 +2508,7 @@
       "departureTime": "14:40",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "15:59",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "keisei-access-nrt-t2-1442-142",
@@ -2933,20 +2550,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "14:49",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "30",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "15:49",
+          "arrivalTime": "15:47",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "16:11",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2966,13 +2576,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "16:21",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -2985,15 +2588,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "16:22",
+          "stationName": "押上",
+          "arrivalTime": "16:31",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "16:31",
+          "stationName": "日本橋",
+          "arrivalTime": "16:44",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -3060,15 +2663,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "16:08",
+          "stationName": "押上",
+          "arrivalTime": "16:16",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "16:16",
+          "stationName": "日本橋",
+          "arrivalTime": "16:29",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -3089,13 +2692,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "16:41",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -3107,13 +2703,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "16:34",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "16:44",
@@ -3128,20 +2717,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "15:18",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿",
       "serviceNumber": "32",
       "arrivalInfo": [
         {
           "stationName": "東京",
           "arrivalTime": "16:18",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "16:41",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3156,13 +2738,6 @@
       "destination": "京成上野",
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "15:53",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "16:02",
@@ -3215,15 +2790,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "16:44",
+          "stationName": "押上",
+          "arrivalTime": "16:53",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "16:53",
+          "stationName": "日本橋",
+          "arrivalTime": "17:06",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -3236,16 +2811,7 @@
       "departureTime": "15:40",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "16:59",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "keisei-access-nrt-t2-1542-159",
@@ -3287,20 +2853,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "15:48",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "34",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "16:50",
+          "arrivalTime": "16:47",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "17:12",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3314,13 +2873,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "16:53",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "17:03",
@@ -3395,13 +2947,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "17:31",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -3414,15 +2959,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "16:53",
+          "stationName": "押上",
+          "arrivalTime": "17:00",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "17:00",
+          "stationName": "日本橋",
+          "arrivalTime": "17:13",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -3438,15 +2983,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "17:14",
+          "stationName": "押上",
+          "arrivalTime": "17:22",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "17:22",
+          "stationName": "日本橋",
+          "arrivalTime": "17:34",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -3480,13 +3025,6 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "16:55",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "17:05",
           "timeType": "arrival",
@@ -3504,15 +3042,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "17:46",
+          "stationName": "押上",
+          "arrivalTime": "17:55",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "17:55",
+          "stationName": "日本橋",
+          "arrivalTime": "18:08",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -3524,20 +3062,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "16:23",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿",
       "serviceNumber": "36",
       "arrivalInfo": [
         {
           "stationName": "東京",
           "arrivalTime": "17:22",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "17:43",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3566,16 +3097,7 @@
       "departureTime": "16:30",
       "trainType": "バス",
       "destination": "銀座駅",
-      "operatorLabel": "エアポートバス東京・成田",
-      "arrivalInfo": [
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "17:49",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        }
-      ]
+      "operatorLabel": "エアポートバス東京・成田"
     },
     {
       "id": "jr-nrt-t2-1635-175",
@@ -3633,13 +3155,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "18:21",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -3652,15 +3167,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "17:38",
+          "stationName": "押上",
+          "arrivalTime": "17:45",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "17:45",
+          "stationName": "日本橋",
+          "arrivalTime": "17:57",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -3672,20 +3187,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "16:48",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "38",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "17:49",
+          "arrivalTime": "17:47",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "18:13",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3700,15 +3208,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "17:55",
+          "stationName": "押上",
+          "arrivalTime": "18:05",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "18:05",
+          "stationName": "日本橋",
+          "arrivalTime": "18:18",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -3780,13 +3288,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "18:41",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -3799,15 +3300,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "18:27",
+          "stationName": "押上",
+          "arrivalTime": "18:37",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "18:37",
+          "stationName": "日本橋",
+          "arrivalTime": "18:50",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -3836,20 +3337,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "17:19",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "40",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "18:23",
+          "arrivalTime": "18:20",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "18:46",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3864,13 +3358,6 @@
       "destination": "京成上野",
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "17:53",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "18:02",
@@ -3894,13 +3381,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "19:01",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -3913,15 +3393,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "18:18",
+          "stationName": "押上",
+          "arrivalTime": "18:26",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "18:26",
+          "stationName": "日本橋",
+          "arrivalTime": "18:39",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -3936,13 +3416,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "18:31",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "18:41",
@@ -4008,13 +3481,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "19:21",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -4027,15 +3493,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "19:03",
+          "stationName": "押上",
+          "arrivalTime": "19:12",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "19:12",
+          "stationName": "日本橋",
+          "arrivalTime": "19:25",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -4047,7 +3513,7 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "17:48",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "大船",
       "serviceNumber": "42",
       "arrivalInfo": [
         {
@@ -4124,13 +3590,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "19:41",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -4143,15 +3602,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "19:00",
+          "stationName": "押上",
+          "arrivalTime": "19:07",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "19:07",
+          "stationName": "日本橋",
+          "arrivalTime": "19:20",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -4166,13 +3625,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "19:17",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "19:28",
@@ -4209,13 +3661,6 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "18:54",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "19:05",
           "timeType": "arrival",
@@ -4229,20 +3674,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "18:19",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿",
       "serviceNumber": "44",
       "arrivalInfo": [
         {
           "stationName": "東京",
           "arrivalTime": "19:21",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "19:45",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4262,13 +3700,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "20:01",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -4281,15 +3712,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "19:30",
+          "stationName": "押上",
+          "arrivalTime": "19:37",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "19:37",
+          "stationName": "日本橋",
+          "arrivalTime": "19:50",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -4361,13 +3792,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "20:21",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -4379,13 +3803,6 @@
       "destination": "京成上野",
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "19:30",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "19:39",
@@ -4400,20 +3817,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "18:48",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "46",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "19:50",
+          "arrivalTime": "19:47",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "20:13",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4428,15 +3838,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "20:08",
+          "stationName": "押上",
+          "arrivalTime": "20:15",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "20:15",
+          "stationName": "日本橋",
+          "arrivalTime": "20:28",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -4508,13 +3918,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "20:41",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -4527,15 +3930,15 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "20:18",
+          "stationName": "押上",
+          "arrivalTime": "20:27",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "20:27",
+          "stationName": "日本橋",
+          "arrivalTime": "20:40",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -4564,20 +3967,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "19:20",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿",
       "serviceNumber": "48",
       "arrivalInfo": [
         {
           "stationName": "東京",
           "arrivalTime": "20:15",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "20:40",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4592,13 +3988,6 @@
       "destination": "京成上野",
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "19:55",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "20:05",
@@ -4622,13 +4011,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "20:51",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -4640,13 +4022,6 @@
       "destination": "京成上野",
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "20:20",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "20:31",
@@ -4664,13 +4039,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "20:35",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "20:47",
@@ -4745,13 +4113,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "21:11",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -4763,13 +4124,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "20:52",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "21:02",
@@ -4784,20 +4138,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "19:53",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "50",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "20:56",
+          "arrivalTime": "20:53",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "21:18",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4852,13 +4199,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "21:31",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -4871,15 +4211,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "20:50",
+          "stationName": "押上",
+          "arrivalTime": "20:57",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "20:57",
+          "stationName": "日本橋",
+          "arrivalTime": "21:10",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -4894,13 +4234,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "21:15",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "21:24",
@@ -4936,13 +4269,6 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "20:55",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "21:07",
           "timeType": "arrival",
@@ -4965,13 +4291,6 @@
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "21:51",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
         }
       ]
     },
@@ -4983,13 +4302,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "21:37",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "21:48",
@@ -5024,15 +4336,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "21:29",
+          "stationName": "押上",
+          "arrivalTime": "21:36",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "21:36",
+          "stationName": "日本橋",
+          "arrivalTime": "21:49",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -5079,20 +4391,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "20:47",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "52",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "21:48",
+          "arrivalTime": "21:45",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "22:09",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5117,13 +4422,6 @@
         {
           "stationName": "東京駅",
           "arrivalTime": "22:08",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "22:21",
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
@@ -5174,15 +4472,15 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "22:01",
+          "stationName": "押上",
+          "arrivalTime": "22:08",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
-          "stationName": "押上",
-          "arrivalTime": "22:08",
+          "stationName": "日本橋",
+          "arrivalTime": "22:21",
           "timeType": "departure",
           "source": "train-detail",
           "confidence": "matched"
@@ -5200,13 +4498,6 @@
         {
           "stationName": "東京駅",
           "arrivalTime": "22:28",
-          "timeType": "arrival",
-          "source": "manual",
-          "confidence": "manual"
-        },
-        {
-          "stationName": "銀座駅",
-          "arrivalTime": "22:41",
           "timeType": "arrival",
           "source": "manual",
           "confidence": "manual"
@@ -5238,13 +4529,6 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "22:40",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "22:54",
           "timeType": "departure",
@@ -5262,13 +4546,6 @@
       "destination": "京成上野",
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "21:54",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "22:04",
@@ -5328,13 +4605,6 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "22:37",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "22:46",
           "timeType": "departure",
@@ -5366,20 +4636,13 @@
       "sourceId": "jr-nrt-t2",
       "departureTime": "21:47",
       "trainType": "成田エクスプレス",
-      "destination": "新宿方面",
+      "destination": "新宿・大船",
       "serviceNumber": "54",
       "arrivalInfo": [
         {
           "stationName": "東京",
-          "arrivalTime": "22:43",
+          "arrivalTime": "22:39",
           "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
-          "stationName": "新宿",
-          "arrivalTime": "23:12",
-          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5411,13 +4674,6 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "23:05",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "23:15",
           "timeType": "departure",
@@ -5435,13 +4691,6 @@
       "destination": "京成上野",
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "22:33",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "22:43",
@@ -5477,13 +4726,6 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "22:50",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "22:59",
           "timeType": "departure",
@@ -5516,13 +4758,6 @@
       "destination": "京成上野",
       "routeName": "京成本線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "23:36",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "23:50",
@@ -5559,13 +4794,6 @@
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "22:53",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "23:03",
           "timeType": "arrival",
@@ -5600,13 +4828,6 @@
       "routeName": "京成本線",
       "arrivalInfo": [
         {
-          "stationName": "青砥",
-          "arrivalTime": "23:44",
-          "timeType": "departure",
-          "source": "train-detail",
-          "confidence": "matched"
-        },
-        {
           "stationName": "日暮里",
           "arrivalTime": "23:54",
           "timeType": "departure",
@@ -5624,13 +4845,6 @@
       "destination": "京成上野",
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "23:13",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "23:24",
@@ -5690,13 +4904,6 @@
       "destination": "京成上野",
       "routeName": "成田スカイアクセス線",
       "arrivalInfo": [
-        {
-          "stationName": "青砥",
-          "arrivalTime": "23:33",
-          "timeType": "arrival",
-          "source": "station-timetable",
-          "confidence": "matched"
-        },
         {
           "stationName": "日暮里",
           "arrivalTime": "23:43",

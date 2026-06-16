@@ -10,7 +10,7 @@
     <title>Departure Board</title>
     <link rel="manifest" href="./manifest.json" />
     <link rel="apple-touch-icon" href="./icons/icon-192.png" />
-    <link rel="stylesheet" href="./styles.css?v=20260615-10" />
+    <link rel="stylesheet" href="./styles.css?v=20260616-2" />
   </head>
   <body>
     <main class="app-shell">
@@ -21,23 +21,25 @@
             <span class="visually-hidden">場所</span>
             <select id="place-select" aria-label="場所"></select>
           </label>
-          <label class="service-type-control">
-            <span>運行区分</span>
-            <select id="service-type-select" aria-label="運行区分"></select>
-          </label>
+          <div class="quick-controls">
+            <label class="service-type-control">
+              <span>運行区分</span>
+              <select id="service-type-select" aria-label="運行区分"></select>
+            </label>
+            <section class="board-controls" aria-label="発車案内の操作">
+              <button id="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-panel">
+                <span class="button-label-long">表示設定</span>
+                <span class="button-label-short" aria-hidden="true">設定</span>
+              </button>
+              <button id="refresh-button" type="button">更新</button>
+            </section>
+          </div>
         </div>
         <div class="clock" aria-label="現在時刻">
           <span id="clock-time">--:--</span>
           <span id="clock-date">----</span>
         </div>
       </header>
-
-      <section class="board-controls" aria-label="発車案内の操作">
-        <button id="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-panel">
-          表示設定
-        </button>
-        <button id="refresh-button" type="button">更新</button>
-      </section>
 
       <section id="filter-panel" class="filter-panel" hidden>
         <div class="filter-panel-heading">
@@ -53,7 +55,7 @@
             <span id="time-mode-label">あと</span>
             <span class="toggle-hint">切替</span>
           </button>
-          <span>駅・種別・行先</span>
+          <span>種別・行先 / 路線・駅</span>
           <span>参考到着時刻</span>
         </div>
         <div id="departures" class="departure-list"></div>
@@ -73,19 +75,19 @@
       <article class="departure">
         <button class="departure-time-toggle" type="button"></button>
         <div class="departure-summary">
-          <div class="operator-cell">
-            <span class="operator-mark"></span>
-            <span class="operator-name"></span>
-          </div>
           <div class="service-cell">
             <span class="train-type"></span>
             <span class="destination"></span>
+          </div>
+          <div class="operator-cell">
+            <span class="operator-mark"></span>
+            <span class="operator-name"></span>
           </div>
         </div>
         <ul class="arrival-info" aria-label="参考到着時刻"></ul>
       </article>
     </template>
 
-    <script src="./app.js?v=20260615-2" type="module"></script>
+    <script src="./app.js?v=20260616-2" type="module"></script>
   </body>
 </html>

@@ -204,10 +204,17 @@ function renderArrivalInfo(container, arrivals = []) {
     const item = document.createElement("li");
     const station = document.createElement("span");
     const time = document.createElement("time");
+    const typeLabel = { arrival: "着", departure: "発" }[arrival.timeType];
     station.className = "arrival-station";
     station.textContent = arrival.stationName;
     time.className = "arrival-time";
     time.textContent = (arrival.arrivalTime ?? arrival.time ?? "--:--").replace(/^24:/, "0:");
+    if (typeLabel) {
+      const kind = document.createElement("span");
+      kind.className = "arrival-time-kind";
+      kind.textContent = typeLabel;
+      time.append(kind);
+    }
     item.append(station, time);
     container.append(item);
   }
@@ -219,6 +226,7 @@ function renderDeparture(departure, now) {
   const timeToggle = fragment.querySelector(".departure-time-toggle");
   article.style.setProperty("--operator-color", departure.source.color);
   article.dataset.sourceId = departure.sourceId;
+  article.dataset.trainType = departure.trainType ?? "";
   timeToggle.textContent = formatDepartureTime(departure, now);
   timeToggle.addEventListener("click", toggleTimeMode);
   fragment.querySelector(".operator-name").textContent = departure.sourceDisplayName;

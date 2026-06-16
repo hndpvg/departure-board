@@ -123,10 +123,21 @@ footer {
   font-size: 0.74rem;
 }
 
+.quick-controls,
+.board-controls {
+  display: flex;
+  align-items: center;
+}
+
 .board-controls {
   justify-content: flex-end;
   gap: 12px;
-  margin-bottom: 14px;
+}
+
+.quick-controls {
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-top: 10px;
 }
 
 .service-type-control {
@@ -134,7 +145,6 @@ footer {
   align-items: center;
   gap: 7px;
   width: max-content;
-  margin-top: 10px;
   color: #8fa2b8;
   font-size: 0.66rem;
   font-weight: 700;
@@ -168,6 +178,10 @@ footer {
   color: #c8d8e8;
   font-size: 0.7rem;
   font-weight: 700;
+}
+
+.button-label-short {
+  display: none;
 }
 
 #refresh-button,
@@ -351,7 +365,7 @@ footer {
 
 .departure-summary {
   display: grid;
-  gap: 7px;
+  gap: 5px;
   min-width: 0;
 }
 
@@ -372,8 +386,8 @@ footer {
 
 .operator-name {
   color: #aebfd0;
-  font-size: 0.72rem;
-  font-weight: 800;
+  font-size: 0.67rem;
+  font-weight: 700;
 }
 
 .train-type {
@@ -478,6 +492,13 @@ footer {
   flex: 0 0 58px;
 }
 
+.departure[data-source-id="tyo-nrt-nrt-t2"] .arrival-info::before,
+.departure[data-source-id="jr-nrt-t2"][data-train-type="成田エクスプレス"] .arrival-info::before {
+  content: "";
+  display: block;
+  flex: 0 0 58px;
+}
+
 .arrival-station {
   color: #8297ac;
   font-size: 0.64rem;
@@ -490,6 +511,14 @@ footer {
   font-size: 0.82rem;
   font-weight: 800;
   line-height: 1.1;
+}
+
+.arrival-time-kind {
+  margin-left: 1px;
+  color: #8297ac;
+  font-family: "Hiragino Sans", "Yu Gothic UI", "Yu Gothic", system-ui, sans-serif;
+  font-size: 0.58em;
+  font-weight: 800;
 }
 
 .status {
@@ -527,6 +556,34 @@ footer p {
   .app-shell {
     padding-right: 12px;
     padding-left: 12px;
+  }
+
+  .topbar {
+    margin-bottom: 10px;
+  }
+
+  .clock {
+    display: none;
+  }
+
+  .quick-controls {
+    gap: 8px;
+    margin-top: 6px;
+  }
+
+  #refresh-button,
+  #filter-toggle {
+    padding: 4px 8px;
+    border-radius: 7px;
+    font-size: 0.68rem;
+  }
+
+  .button-label-long {
+    display: none;
+  }
+
+  .button-label-short {
+    display: inline;
   }
 
   .board-heading,

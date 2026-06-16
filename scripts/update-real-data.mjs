@@ -95,13 +95,11 @@ function parseSkylinerOfficialTimetable(html, weekend) {
     const cells = [...row[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)]
       .map((cell) => decodeHtml(cell[1]));
     if (cells.length !== 7 || !/^\d+$/.test(cells[0])) continue;
-    const [serviceNumber, , airportT2, , aoto, nippori] = cells;
+    const [serviceNumber, , airportT2, , , nippori] = cells;
     const departureTime = normalizeDetailTime(airportT2);
     if (!departureTime) continue;
     const arrivalInfo = [];
-    const aotoTime = normalizeDetailTime(aoto);
     const nipporiTime = normalizeDetailTime(nippori);
-    if (aotoTime) arrivalInfo.push(matchedReferenceTime("青砥", aotoTime, "arrival", "station-timetable"));
     if (nipporiTime) arrivalInfo.push(matchedReferenceTime("日暮里", nipporiTime, "arrival", "station-timetable"));
     timetable.set(departureTime, { serviceNumber, arrivalInfo });
   }
@@ -111,16 +109,33 @@ function parseSkylinerOfficialTimetable(html, weekend) {
 function parseJrTrainDetail(html, referenceStations) {
   const serviceNumber = html.match(/成田エクスプレス\s*(\d+)号/)?.[1];
   const arrivalInfo = [];
+  const terminalStations = [];
+  const earliestTime = (matches) =>
+    matches
+      .map((match) => normalizeDetailTime(match[1]))
+      .filter(Boolean)
+      .sort((a, b) => a.localeCompare(b))[0];
   for (const row of html.matchAll(/<tr class="time">([\s\S]*?)<\/tr>/g)) {
     const stationName = decodeHtml(row[1].match(/<th class="time">[\s\S]*?<a[^>]*>([^<]+)<\/a>/)?.[1] ?? "");
-    if (!referenceStations.includes(stationName)) continue;
     const times = [...row[1].matchAll(/(\d{2}:\d{2})\s*(発|着)/g)];
-    const departure = times.findLast((match) => match[2] === "発");
-    const arrival = times.findLast((match) => match[2] === "着");
-    if (departure) arrivalInfo.push(matchedReferenceTime(stationName, departure[1], "departure"));
-    else if (arrival) arrivalInfo.push(matchedReferenceTime(stationName, arrival[1], "arrival"));
+    const hasArrival = times.some((match) => match[2] === "着");
+    const hasDeparture = times.some((match) => match[2] === "発");
+    if (stationName && hasArrival && !hasDeparture) terminalStations.push(stationName);
+    if (!referenceStations.includes(stationName)) continue;
+    const departureTime = earliestTime(times.filter((match) => match[2] === "発"));
+    const arrivalTime = earliestTime(times.filter((match) => match[2] === "着"));
+    if (departureTime) arrivalInfo.push(matchedReferenceTime(stationName, departureTime, "departure"));
+    else if (arrivalTime) arrivalInfo.push(matchedReferenceTime(stationName, arrivalTime, "arrival"));
   }
-  return { arrivalInfo, serviceNumber };
+  const destinationOrder = ["新宿", "大船", "池袋", "八王子", "高尾"];
+  const destination = [...new Set(terminalStations)]
+    .sort((a, b) => {
+      const indexA = destinationOrder.includes(a) ? destinationOrder.indexOf(a) : destinationOrder.length;
+      const indexB = destinationOrder.includes(b) ? destinationOrder.indexOf(b) : destinationOrder.length;
+      return indexA - indexB || a.localeCompare(b, "ja");
+    })
+    .join("・");
+  return { arrivalInfo, serviceNumber, destination };
 }
 
 async function attachTrainDetailArrivalInfo(departures, referenceStations, parser, encoding = "utf-8") {
@@ -253,7 +268,7 @@ async function parseKeisei(dw) {
   const uniqueDepartures = [...new Map(departures.map((departure) => [departure._trainKey, departure])).values()];
   const enriched = await attachTrainDetailArrivalInfo(
     uniqueDepartures,
-    ["青砥", "日暮里", "押上"],
+    ["日暮里", "押上", "日本橋"],
     parseKeiseiTrainDetail,
   );
   return enriched.map(({ _trainKey, _detailUrl, ...departure }) => {
@@ -314,10 +329,11 @@ async function parseJr(daySuffix) {
   ])).values()];
   const enriched = await inBatches(uniqueDepartures, 12, async (departure) => {
     const detail = await fetchText(departure._detailUrl);
-    const { arrivalInfo, serviceNumber } = parseJrTrainDetail(detail, ["東京", "新宿"]);
+    const { arrivalInfo, serviceNumber, destination } = parseJrTrainDetail(detail, ["東京"]);
     return {
       ...departure,
       ...(departure.trainType === "成田エクスプレス" && serviceNumber ? { serviceNumber } : {}),
+      ...(departure.trainType === "成田エクスプレス" && destination ? { destination } : {}),
       ...(arrivalInfo.length ? { arrivalInfo } : {}),
     };
   });
@@ -328,14 +344,17 @@ async function parseBus() {
   const arrivalSchedule = JSON.parse(
     (await readFile(resolve(dataDir, "tyo-nrt-arrivals.json"), "utf8")).replace(/^\uFEFF/, ""),
   );
-  return Object.entries(arrivalSchedule.arrivalsByDepartureTime).map(([departureTime, arrivalInfo]) => ({
-    sourceId: "tyo-nrt-nrt-t2",
-    departureTime,
-    trainType: "バス",
-    destination: arrivalInfo.some((arrival) => arrival.stationName === "銀座駅") ? "銀座駅" : "東京駅",
-    operatorLabel: "エアポートバス東京・成田",
-    arrivalInfo,
-  }));
+  return Object.entries(arrivalSchedule.arrivalsByDepartureTime).map(([departureTime, arrivalInfo]) => {
+    const tokyoArrivalInfo = arrivalInfo.filter((arrival) => arrival.stationName === "東京駅");
+    return {
+      sourceId: "tyo-nrt-nrt-t2",
+      departureTime,
+      trainType: "バス",
+      destination: arrivalInfo.some((arrival) => arrival.stationName === "銀座駅") ? "銀座駅" : "東京駅",
+      operatorLabel: "エアポートバス東京・成田",
+      ...(tokyoArrivalInfo.length ? { arrivalInfo: tokyoArrivalInfo } : {}),
+    };
+  });
 }
 
 function withIds(departures) {
@@ -435,9 +454,21 @@ catalog.sources["keikyu-hnd-t3"].defaultFilter.trainTypes = [
   "特急",
   "急行",
 ];
-if (!catalog.sources["keikyu-hnd-t3"].defaultFilter.destinations.includes("印西牧の原")) {
-  catalog.sources["keikyu-hnd-t3"].defaultFilter.destinations.push("印西牧の原");
-}
+catalog.sources["keikyu-hnd-t3"].defaultFilter.destinations = [
+  "品川",
+  "青砥",
+  "押上",
+  "泉岳寺",
+  "京成高砂",
+  "京成佐倉",
+  "成田空港",
+  "印旛日本医大",
+  "印西牧の原",
+  "成田スカイアクセス線経由成田空港",
+  "京成成田",
+  "芝山千代田",
+  "宗吾参道",
+];
 Object.assign(catalog.sources["keikyu-hnd-t3"], {
   displayName: "京急線　羽田空港第3ターミナル駅",
   shortName: "京急線",
@@ -477,8 +508,8 @@ catalog.sources["keisei-access-nrt-t2"] = {
     trainTypes: ["スカイライナー", "アクセス特急"],
   },
   referenceStops: {
-    スカイライナー: ["青砥", "日暮里"],
-    アクセス特急: ["青砥", "押上", "日暮里"],
+    スカイライナー: ["日暮里"],
+    アクセス特急: ["押上", "日本橋", "日暮里"],
   },
   trainTypeCategories: {
     スカイライナー: "keisei-skyliner",
@@ -502,10 +533,10 @@ catalog.sources["keisei-mainline-nrt-t2"] = {
   defaultEnabled: true,
   color: "#e53935",
   defaultFilter: {
-    trainTypes: ["快速特急", "特急"],
+    trainTypes: ["快速特急", "特急", "通勤特急", "モーニングライナー"],
   },
   referenceStops: {
-    "*": ["青砥", "押上", "日暮里"],
+    "*": ["押上", "日本橋", "日暮里"],
   },
   trainTypeCategories: {
     快速特急: "keisei-mainline",
@@ -520,9 +551,12 @@ catalog.sources["keisei-mainline-nrt-t2"] = {
 Object.assign(catalog.sources["jr-nrt-t2"], {
   displayName: "JR成田線　空港第2ビル駅",
   shortName: "JR成田線",
+  defaultFilter: {
+    trainTypes: ["成田エクスプレス"],
+  },
   referenceStops: {
     "*": ["東京"],
-    成田エクスプレス: ["東京", "新宿"],
+    成田エクスプレス: ["東京"],
   },
 });
 Object.assign(catalog.sources["tyo-nrt-nrt-t2"], {
@@ -530,7 +564,6 @@ Object.assign(catalog.sources["tyo-nrt-nrt-t2"], {
   shortName: "エアポートバス東京・成田",
   referenceStops: {
     "*": ["東京駅"],
-    銀座駅: ["東京駅", "銀座駅"],
   },
 });
 catalog.displayCategories["airport-bus"] = { label: "エアポートバス東京・成田" };
