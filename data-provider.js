@@ -67,6 +67,10 @@ function sourceDisplayName(source) {
   return source.operator;
 }
 
+function sourceLineLabel(source) {
+  return source.shortName ?? source.line ?? source.operator;
+}
+
 export async function getPlaces() {
   const catalog = await getCatalog();
   return Object.values(catalog.places ?? {}).map(({ id, name }) => ({ id, name }));
@@ -118,6 +122,8 @@ export async function getDepartures(placeId, serviceType, userFilters = {}) {
       ...departure,
       operator: sources[departure.sourceId].operator,
       sourceDisplayName: sourceDisplayName(sources[departure.sourceId]),
+      sourceLineLabel: sourceLineLabel(sources[departure.sourceId]),
+      sourceStationLabel: sources[departure.sourceId].stationName,
       operatorLabel:
         departure.operatorLabel ??
         sources[departure.sourceId].operatorLabel ??

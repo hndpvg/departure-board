@@ -503,7 +503,7 @@ catalog.sources["keisei-access-nrt-t2"] = {
   displayName: "成田スカイアクセス線　空港第2ビル駅",
   shortName: "成田スカイアクセス線",
   defaultEnabled: true,
-  color: "#e53935",
+  color: "#f97316",
   defaultFilter: {
     trainTypes: ["スカイライナー", "アクセス特急"],
   },

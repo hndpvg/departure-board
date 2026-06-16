@@ -10,7 +10,7 @@
     <title>Departure Board</title>
     <link rel="manifest" href="./manifest.json" />
     <link rel="apple-touch-icon" href="./icons/icon-192.png" />
-    <link rel="stylesheet" href="./styles.css?v=20260616-2" />
+    <link rel="stylesheet" href="./styles.css?v=20260616-3" />
   </head>
   <body>
     <main class="app-shell">
@@ -29,7 +29,7 @@
             <section class="board-controls" aria-label="発車案内の操作">
               <button id="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-panel">
                 <span class="button-label-long">表示設定</span>
-                <span class="button-label-short" aria-hidden="true">設定</span>
+                <span class="button-label-short" aria-hidden="true">表示設定</span>
               </button>
               <button id="refresh-button" type="button">更新</button>
             </section>
@@ -81,13 +81,16 @@
           </div>
           <div class="operator-cell">
             <span class="operator-mark"></span>
-            <span class="operator-name"></span>
+            <span class="source-label">
+              <span class="source-line"></span>
+              <span class="source-station"></span>
+            </span>
           </div>
         </div>
         <ul class="arrival-info" aria-label="参考到着時刻"></ul>
       </article>
     </template>
 
-    <script src="./app.js?v=20260616-2" type="module"></script>
+    <script src="./app.js?v=20260616-3" type="module"></script>
   </body>
 </html>

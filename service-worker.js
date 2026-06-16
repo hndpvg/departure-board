@@ -1,10 +1,10 @@
-const CACHE_VERSION = "departure-board-v9";
+const CACHE_VERSION = "departure-board-v10";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./app.js?v=20260616-2",
+  "./app.js?v=20260616-3",
   "./data-provider.js?v=20260614-2",
-  "./styles.css?v=20260616-2",
+  "./styles.css?v=20260616-3",
   "./manifest.json",
   "./icons/icon-192.png",
   "./icons/icon-512.png",

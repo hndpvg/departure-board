@@ -199,16 +199,36 @@ function formatDepartureTime(departure, now) {
   return remaining === 0 ? "まもなく" : `${remaining}分後`;
 }
 
-function renderArrivalInfo(container, arrivals = []) {
+function timeToMinutes(time) {
+  const match = String(time ?? "").match(/^(\d{1,2}):(\d{2})$/);
+  if (!match) return undefined;
+  const hour = Number(match[1]);
+  const minute = Number(match[2]);
+  if (!Number.isInteger(hour) || !Number.isInteger(minute) || minute > 59) return undefined;
+  return hour * 60 + minute;
+}
+
+function referenceDurationMinutes(departureTime, referenceTime) {
+  const departureMinutes = timeToMinutes(departureTime);
+  let referenceMinutes = timeToMinutes(referenceTime);
+  if (departureMinutes === undefined || referenceMinutes === undefined) return undefined;
+  while (referenceMinutes < departureMinutes) referenceMinutes += 24 * 60;
+  return referenceMinutes - departureMinutes;
+}
+
+function renderArrivalInfo(container, departureTime, arrivals = []) {
   for (const arrival of arrivals) {
     const item = document.createElement("li");
     const station = document.createElement("span");
     const time = document.createElement("time");
+    const duration = document.createElement("span");
+    const rawTime = arrival.arrivalTime ?? arrival.time;
+    const durationMinutes = referenceDurationMinutes(departureTime, rawTime);
     const typeLabel = { arrival: "着", departure: "発" }[arrival.timeType];
     station.className = "arrival-station";
     station.textContent = arrival.stationName;
     time.className = "arrival-time";
-    time.textContent = (arrival.arrivalTime ?? arrival.time ?? "--:--").replace(/^24:/, "0:");
+    time.textContent = (rawTime ?? "--:--").replace(/^24:/, "0:");
     if (typeLabel) {
       const kind = document.createElement("span");
       kind.className = "arrival-time-kind";
@@ -216,6 +236,11 @@ function renderArrivalInfo(container, arrivals = []) {
       time.append(kind);
     }
     item.append(station, time);
+    if (durationMinutes !== undefined) {
+      duration.className = "arrival-duration";
+      duration.textContent = `（${durationMinutes}分）`;
+      item.append(duration);
+    }
     container.append(item);
   }
 }
@@ -229,7 +254,8 @@ function renderDeparture(departure, now) {
   article.dataset.trainType = departure.trainType ?? "";
   timeToggle.textContent = formatDepartureTime(departure, now);
   timeToggle.addEventListener("click", toggleTimeMode);
-  fragment.querySelector(".operator-name").textContent = departure.sourceDisplayName;
+  fragment.querySelector(".source-line").textContent = departure.sourceLineLabel ?? departure.sourceDisplayName;
+  fragment.querySelector(".source-station").textContent = departure.sourceStationLabel ?? "";
   const trainType = fragment.querySelector(".train-type");
   if (departure.trainType) {
     const numberedService = ["スカイライナー", "成田エクスプレス"].includes(departure.trainType);
@@ -240,7 +266,7 @@ function renderDeparture(departure, now) {
     trainType.classList.add(`display-category-${departure.displayCategory ?? "default"}`);
   } else trainType.hidden = true;
   fragment.querySelector(".destination").textContent = departure.destination;
-  renderArrivalInfo(fragment.querySelector(".arrival-info"), departure.arrivalInfo);
+  renderArrivalInfo(fragment.querySelector(".arrival-info"), departure.departureTime, departure.arrivalInfo);
   return fragment;
 }
 

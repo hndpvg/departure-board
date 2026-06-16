@@ -384,10 +384,22 @@ footer {
   box-shadow: 0 0 12px var(--operator-color);
 }
 
-.operator-name {
-  color: #aebfd0;
+.source-label {
+  display: grid;
+  gap: 1px;
+  min-width: 0;
+  color: #8297ac;
   font-size: 0.67rem;
   font-weight: 700;
+  line-height: 1.25;
+}
+
+.source-line,
+.source-station {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: inherit;
+  font: inherit;
 }
 
 .train-type {
@@ -521,6 +533,13 @@ footer {
   font-weight: 800;
 }
 
+.arrival-duration {
+  color: #6f859b;
+  font-size: 0.58rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
 .status {
   margin: 16px 2px;
   font-size: 0.78rem;
@@ -579,11 +598,11 @@ footer p {
   }
 
   .button-label-long {
-    display: none;
+    display: inline;
   }
 
   .button-label-short {
-    display: inline;
+    display: none;
   }
 
   .board-heading,
@@ -650,7 +669,7 @@ footer p {
     display: none;
   }
 
-  .operator-name {
+  .source-label {
     font-size: 0.66rem;
   }
 
