@@ -63,15 +63,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "05:47",
-          "timeType": "departure",
+          "arrivalTime": "05:46",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "05:54",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -87,14 +87,14 @@
         {
           "stationName": "品川",
           "arrivalTime": "05:56",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "06:04",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -180,8 +180,8 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "06:24",
-          "timeType": "departure",
+          "arrivalTime": "06:23",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -235,8 +235,8 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "06:42",
-          "timeType": "departure",
+          "arrivalTime": "06:41",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -267,15 +267,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "06:47",
-          "timeType": "departure",
+          "arrivalTime": "06:46",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "06:54",
-          "timeType": "departure",
+          "arrivalTime": "06:53",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -322,15 +322,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "06:57",
-          "timeType": "departure",
+          "arrivalTime": "06:56",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "07:05",
-          "timeType": "departure",
+          "arrivalTime": "07:04",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -368,15 +368,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "07:08",
-          "timeType": "departure",
+          "arrivalTime": "07:06",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "07:16",
-          "timeType": "departure",
+          "arrivalTime": "07:15",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -446,15 +446,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "07:17",
-          "timeType": "departure",
+          "arrivalTime": "07:16",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "07:25",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -501,8 +501,8 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "07:27",
-          "timeType": "departure",
+          "arrivalTime": "07:26",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -556,15 +556,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "07:37",
-          "timeType": "departure",
+          "arrivalTime": "07:36",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "07:45",
-          "timeType": "departure",
+          "arrivalTime": "07:44",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -611,15 +611,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "07:47",
-          "timeType": "departure",
+          "arrivalTime": "07:46",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "07:54",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -673,15 +673,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "07:57",
-          "timeType": "departure",
+          "arrivalTime": "07:56",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "08:05",
-          "timeType": "departure",
+          "arrivalTime": "08:04",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -735,15 +735,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "08:07",
-          "timeType": "departure",
+          "arrivalTime": "08:06",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "08:15",
-          "timeType": "departure",
+          "arrivalTime": "08:14",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -797,15 +797,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "08:17",
-          "timeType": "departure",
+          "arrivalTime": "08:16",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "08:25",
-          "timeType": "departure",
+          "arrivalTime": "08:24",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -859,15 +859,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "08:27",
-          "timeType": "departure",
+          "arrivalTime": "08:26",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "08:35",
-          "timeType": "departure",
+          "arrivalTime": "08:34",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -921,15 +921,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "08:37",
-          "timeType": "departure",
+          "arrivalTime": "08:36",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "08:45",
-          "timeType": "departure",
+          "arrivalTime": "08:44",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -983,15 +983,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "08:47",
-          "timeType": "departure",
+          "arrivalTime": "08:46",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "08:55",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1045,15 +1045,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "08:57",
-          "timeType": "departure",
+          "arrivalTime": "08:56",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "09:07",
-          "timeType": "departure",
+          "arrivalTime": "09:06",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1107,15 +1107,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "09:07",
-          "timeType": "departure",
+          "arrivalTime": "09:06",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "09:16",
-          "timeType": "departure",
+          "arrivalTime": "09:15",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1169,15 +1169,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "09:17",
-          "timeType": "departure",
+          "arrivalTime": "09:16",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "09:25",
-          "timeType": "departure",
+          "arrivalTime": "09:24",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1231,15 +1231,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "09:27",
-          "timeType": "departure",
+          "arrivalTime": "09:26",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "09:35",
-          "timeType": "departure",
+          "arrivalTime": "09:34",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1293,15 +1293,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "09:36",
-          "timeType": "departure",
+          "arrivalTime": "09:34",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "09:44",
-          "timeType": "departure",
+          "arrivalTime": "09:43",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1339,15 +1339,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "09:45",
-          "timeType": "departure",
+          "arrivalTime": "09:44",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "09:52",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1401,15 +1401,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "09:48",
-          "timeType": "departure",
+          "arrivalTime": "09:47",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "09:57",
-          "timeType": "departure",
+          "arrivalTime": "09:56",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1463,15 +1463,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "09:57",
-          "timeType": "departure",
+          "arrivalTime": "09:55",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "10:08",
-          "timeType": "departure",
+          "arrivalTime": "10:07",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1503,14 +1503,14 @@
         {
           "stationName": "品川",
           "arrivalTime": "10:08",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "10:16",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1596,15 +1596,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "10:19",
-          "timeType": "departure",
+          "arrivalTime": "10:18",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "10:27",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1619,15 +1619,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "10:29",
-          "timeType": "departure",
+          "arrivalTime": "10:28",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "10:37",
-          "timeType": "departure",
+          "arrivalTime": "10:36",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1713,15 +1713,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "10:39",
-          "timeType": "departure",
+          "arrivalTime": "10:38",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "10:48",
-          "timeType": "departure",
+          "arrivalTime": "10:47",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1736,15 +1736,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "10:49",
-          "timeType": "departure",
+          "arrivalTime": "10:48",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "10:57",
-          "timeType": "departure",
+          "arrivalTime": "10:56",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1830,15 +1830,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "10:59",
-          "timeType": "departure",
+          "arrivalTime": "10:58",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "11:07",
-          "timeType": "departure",
+          "arrivalTime": "11:06",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1853,15 +1853,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "11:09",
-          "timeType": "departure",
+          "arrivalTime": "11:08",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "11:17",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1947,15 +1947,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "11:19",
-          "timeType": "departure",
+          "arrivalTime": "11:18",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "11:28",
-          "timeType": "departure",
+          "arrivalTime": "11:27",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -1970,15 +1970,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "11:29",
-          "timeType": "departure",
+          "arrivalTime": "11:28",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "11:38",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2064,15 +2064,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "11:39",
-          "timeType": "departure",
+          "arrivalTime": "11:38",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "11:47",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2087,15 +2087,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "11:49",
-          "timeType": "departure",
+          "arrivalTime": "11:48",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "11:57",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2181,15 +2181,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "11:59",
-          "timeType": "departure",
+          "arrivalTime": "11:58",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "12:08",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2204,15 +2204,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "12:09",
-          "timeType": "departure",
+          "arrivalTime": "12:08",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "12:17",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2298,15 +2298,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "12:19",
-          "timeType": "departure",
+          "arrivalTime": "12:18",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "12:27",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2321,15 +2321,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "12:29",
-          "timeType": "departure",
+          "arrivalTime": "12:28",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "12:37",
-          "timeType": "departure",
+          "arrivalTime": "12:36",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2415,15 +2415,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "12:39",
-          "timeType": "departure",
+          "arrivalTime": "12:38",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "12:47",
-          "timeType": "departure",
+          "arrivalTime": "12:46",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2438,15 +2438,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "12:49",
-          "timeType": "departure",
+          "arrivalTime": "12:48",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "12:58",
-          "timeType": "departure",
+          "arrivalTime": "12:57",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2532,15 +2532,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "12:59",
-          "timeType": "departure",
+          "arrivalTime": "12:58",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "13:07",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2555,15 +2555,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "13:09",
-          "timeType": "departure",
+          "arrivalTime": "13:08",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "13:17",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2649,15 +2649,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "13:19",
-          "timeType": "departure",
+          "arrivalTime": "13:18",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "13:28",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2672,15 +2672,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "13:29",
-          "timeType": "departure",
+          "arrivalTime": "13:28",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "13:37",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2766,15 +2766,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "13:39",
-          "timeType": "departure",
+          "arrivalTime": "13:38",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "13:47",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2789,15 +2789,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "13:49",
-          "timeType": "departure",
+          "arrivalTime": "13:48",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "13:57",
-          "timeType": "departure",
+          "arrivalTime": "13:56",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2883,15 +2883,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "13:59",
-          "timeType": "departure",
+          "arrivalTime": "13:58",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "14:07",
-          "timeType": "departure",
+          "arrivalTime": "14:06",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -2906,15 +2906,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "14:09",
-          "timeType": "departure",
+          "arrivalTime": "14:08",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "14:18",
-          "timeType": "departure",
+          "arrivalTime": "14:17",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3000,15 +3000,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "14:19",
-          "timeType": "departure",
+          "arrivalTime": "14:18",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "14:27",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3023,15 +3023,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "14:29",
-          "timeType": "departure",
+          "arrivalTime": "14:28",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "14:37",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3117,15 +3117,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "14:39",
-          "timeType": "departure",
+          "arrivalTime": "14:38",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "14:48",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3140,15 +3140,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "14:49",
-          "timeType": "departure",
+          "arrivalTime": "14:48",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "14:57",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3234,15 +3234,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "14:59",
-          "timeType": "departure",
+          "arrivalTime": "14:58",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "15:07",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3257,15 +3257,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "15:09",
-          "timeType": "departure",
+          "arrivalTime": "15:08",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "15:17",
-          "timeType": "departure",
+          "arrivalTime": "15:16",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3351,15 +3351,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "15:19",
-          "timeType": "departure",
+          "arrivalTime": "15:18",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "15:27",
-          "timeType": "departure",
+          "arrivalTime": "15:26",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3374,15 +3374,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "15:29",
-          "timeType": "departure",
+          "arrivalTime": "15:28",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "15:38",
-          "timeType": "departure",
+          "arrivalTime": "15:37",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3468,15 +3468,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "15:39",
-          "timeType": "departure",
+          "arrivalTime": "15:38",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "15:47",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3491,15 +3491,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "15:49",
-          "timeType": "departure",
+          "arrivalTime": "15:48",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "15:57",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3585,15 +3585,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "15:59",
-          "timeType": "departure",
+          "arrivalTime": "15:58",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "16:08",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3608,15 +3608,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "16:09",
-          "timeType": "departure",
+          "arrivalTime": "16:08",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "16:17",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3702,15 +3702,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "16:19",
-          "timeType": "departure",
+          "arrivalTime": "16:18",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "16:27",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3725,15 +3725,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "16:29",
-          "timeType": "departure",
+          "arrivalTime": "16:28",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "16:37",
-          "timeType": "departure",
+          "arrivalTime": "16:36",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3819,15 +3819,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "16:39",
-          "timeType": "departure",
+          "arrivalTime": "16:38",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "16:47",
-          "timeType": "departure",
+          "arrivalTime": "16:46",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3842,15 +3842,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "16:49",
-          "timeType": "departure",
+          "arrivalTime": "16:48",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "16:57",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3936,15 +3936,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "16:59",
-          "timeType": "departure",
+          "arrivalTime": "16:58",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "17:07",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -3959,15 +3959,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "17:09",
-          "timeType": "departure",
+          "arrivalTime": "17:08",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "17:17",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4053,15 +4053,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "17:19",
-          "timeType": "departure",
+          "arrivalTime": "17:18",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "17:29",
-          "timeType": "departure",
+          "arrivalTime": "17:28",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4076,15 +4076,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "17:29",
-          "timeType": "departure",
+          "arrivalTime": "17:28",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "17:37",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4170,15 +4170,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "17:39",
-          "timeType": "departure",
+          "arrivalTime": "17:38",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "17:47",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4193,15 +4193,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "17:49",
-          "timeType": "departure",
+          "arrivalTime": "17:48",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "17:57",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4287,15 +4287,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "17:59",
-          "timeType": "departure",
+          "arrivalTime": "17:58",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "18:08",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4310,15 +4310,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "18:09",
-          "timeType": "departure",
+          "arrivalTime": "18:08",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "18:18",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4404,15 +4404,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "18:19",
-          "timeType": "departure",
+          "arrivalTime": "18:18",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "18:27",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4427,15 +4427,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "18:29",
-          "timeType": "departure",
+          "arrivalTime": "18:28",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "18:37",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4521,15 +4521,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "18:39",
-          "timeType": "departure",
+          "arrivalTime": "18:38",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "18:49",
-          "timeType": "departure",
+          "arrivalTime": "18:48",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4544,15 +4544,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "18:49",
-          "timeType": "departure",
+          "arrivalTime": "18:48",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "18:56",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4638,15 +4638,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "18:59",
-          "timeType": "departure",
+          "arrivalTime": "18:58",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "19:06",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4661,15 +4661,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "19:09",
-          "timeType": "departure",
+          "arrivalTime": "19:08",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "19:16",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4739,15 +4739,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "19:19",
-          "timeType": "departure",
+          "arrivalTime": "19:18",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "19:27",
-          "timeType": "departure",
+          "arrivalTime": "19:26",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4778,15 +4778,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "19:29",
-          "timeType": "departure",
+          "arrivalTime": "19:28",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "19:36",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4834,14 +4834,14 @@
         {
           "stationName": "品川",
           "arrivalTime": "19:37",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "19:45",
-          "timeType": "departure",
+          "arrivalTime": "19:44",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4895,15 +4895,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "19:47",
-          "timeType": "departure",
+          "arrivalTime": "19:46",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "19:54",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -4950,15 +4950,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "19:57",
-          "timeType": "departure",
+          "arrivalTime": "19:56",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "20:05",
-          "timeType": "departure",
+          "arrivalTime": "20:04",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5028,15 +5028,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "20:07",
-          "timeType": "departure",
+          "arrivalTime": "20:06",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "20:14",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5067,15 +5067,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "20:17",
-          "timeType": "departure",
+          "arrivalTime": "20:16",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "20:24",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5129,15 +5129,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "20:27",
-          "timeType": "departure",
+          "arrivalTime": "20:26",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "20:34",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5168,15 +5168,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "20:37",
-          "timeType": "departure",
+          "arrivalTime": "20:36",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "20:44",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5230,15 +5230,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "20:47",
-          "timeType": "departure",
+          "arrivalTime": "20:46",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "20:54",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5269,15 +5269,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "20:57",
-          "timeType": "departure",
+          "arrivalTime": "20:56",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "21:05",
-          "timeType": "departure",
+          "arrivalTime": "21:04",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5331,15 +5331,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "21:07",
-          "timeType": "departure",
+          "arrivalTime": "21:06",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "21:15",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5370,15 +5370,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "21:17",
-          "timeType": "departure",
+          "arrivalTime": "21:16",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "21:24",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5432,15 +5432,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "21:27",
-          "timeType": "departure",
+          "arrivalTime": "21:26",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "21:34",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5471,15 +5471,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "21:37",
-          "timeType": "departure",
+          "arrivalTime": "21:36",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "21:44",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5533,15 +5533,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "21:47",
-          "timeType": "departure",
+          "arrivalTime": "21:46",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "21:56",
-          "timeType": "departure",
+          "arrivalTime": "21:55",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5572,15 +5572,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "21:59",
-          "timeType": "departure",
+          "arrivalTime": "21:58",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "22:07",
-          "timeType": "departure",
+          "arrivalTime": "22:06",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5666,15 +5666,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "22:17",
-          "timeType": "departure",
+          "arrivalTime": "22:16",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "22:25",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5705,15 +5705,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "22:30",
-          "timeType": "departure",
+          "arrivalTime": "22:28",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "22:38",
-          "timeType": "departure",
+          "arrivalTime": "22:37",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5744,8 +5744,8 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "22:39",
-          "timeType": "departure",
+          "arrivalTime": "22:38",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5799,15 +5799,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "22:50",
-          "timeType": "departure",
+          "arrivalTime": "22:49",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "22:58",
-          "timeType": "departure",
+          "arrivalTime": "22:57",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5838,15 +5838,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "23:02",
-          "timeType": "departure",
+          "arrivalTime": "23:01",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "23:09",
-          "timeType": "departure",
+          "arrivalTime": "23:08",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5900,8 +5900,8 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "23:17",
-          "timeType": "departure",
+          "arrivalTime": "23:15",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -5948,15 +5948,15 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "23:31",
-          "timeType": "departure",
+          "arrivalTime": "23:30",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
           "arrivalTime": "23:38",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -6011,14 +6011,14 @@
         {
           "stationName": "品川",
           "arrivalTime": "23:44",
-          "timeType": "departure",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         },
         {
           "stationName": "大門",
-          "arrivalTime": "23:52",
-          "timeType": "departure",
+          "arrivalTime": "23:51",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }
@@ -6049,8 +6049,8 @@
       "arrivalInfo": [
         {
           "stationName": "品川",
-          "arrivalTime": "23:57",
-          "timeType": "departure",
+          "arrivalTime": "23:56",
+          "timeType": "arrival",
           "source": "train-detail",
           "confidence": "matched"
         }

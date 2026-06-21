@@ -505,7 +505,7 @@ footer {
 }
 
 .departure[data-source-id="tyo-nrt-nrt-t2"] .arrival-info::before,
-.departure[data-source-id="jr-nrt-t2"][data-train-type="成田エクスプレス"] .arrival-info::before {
+.departure[data-source-id="jr-nrt-t2"] .arrival-info::before {
   content: "";
   display: block;
   flex: 0 0 58px;

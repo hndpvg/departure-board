@@ -23,6 +23,7 @@
       "sources": [
         "keisei-access-nrt-t2",
         "keisei-mainline-nrt-t2",
+        "keisei-higashi-narita-nrt-t2",
         "jr-nrt-t2",
         "tyo-nrt-nrt-t2"
       ],
@@ -142,7 +143,7 @@
       "operatorLabel": "エアポートバス東京・成田",
       "line": "成田空港－東京駅",
       "stationName": "成田空港第2ターミナル6番",
-      "defaultEnabled": true,
+      "defaultEnabled": false,
       "color": "#0f766e",
       "defaultFilter": {},
       "referenceStops": {
@@ -169,6 +170,14 @@
         "trainTypes": [
           "スカイライナー",
           "アクセス特急"
+        ],
+        "destinations": [
+          "羽田空港",
+          "京急久里浜",
+          "京成高砂",
+          "京成上野",
+          "三崎口",
+          "西馬込"
         ]
       },
       "referenceStops": {
@@ -201,13 +210,58 @@
       "displayName": "京成本線　空港第2ビル駅",
       "shortName": "京成本線",
       "defaultEnabled": true,
-      "color": "#e53935",
+      "color": "#2563eb",
       "defaultFilter": {
         "trainTypes": [
           "快速特急",
           "特急",
           "通勤特急",
           "モーニングライナー"
+        ],
+        "destinations": [
+          "羽田空港",
+          "京成高砂",
+          "京成上野",
+          "西馬込"
+        ]
+      },
+      "referenceStops": {
+        "*": [
+          "押上",
+          "日本橋",
+          "日暮里"
+        ]
+      },
+      "trainTypeCategories": {
+        "快速特急": "keisei-mainline",
+        "通勤特急": "keisei-mainline",
+        "特急": "keisei-mainline",
+        "快速": "local-rail",
+        "普通": "local-rail",
+        "モーニングライナー": "keisei-skyliner",
+        "イブニングライナー": "keisei-skyliner"
+      }
+    },
+    "keisei-higashi-narita-nrt-t2": {
+      "id": "keisei-higashi-narita-nrt-t2",
+      "operator": "京成",
+      "line": "京成東成田線",
+      "stationName": "東成田駅",
+      "displayName": "京成東成田線　東成田駅",
+      "shortName": "京成東成田線",
+      "defaultEnabled": true,
+      "color": "#38bdf8",
+      "defaultFilter": {
+        "trainTypes": [
+          "快速特急",
+          "通勤特急",
+          "特急"
+        ],
+        "destinations": [
+          "羽田空港",
+          "京成高砂",
+          "京成上野",
+          "西馬込"
         ]
       },
       "referenceStops": {

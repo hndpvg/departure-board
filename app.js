@@ -38,6 +38,9 @@ const dateFormatter = new Intl.DateTimeFormat("ja-JP", {
 const timeFormatter = new Intl.DateTimeFormat("ja-JP", {
   timeZone: JAPAN_TIME_ZONE, hour: "2-digit", minute: "2-digit", hour12: false,
 });
+const dateKeyFormatter = new Intl.DateTimeFormat("en-CA", {
+  timeZone: JAPAN_TIME_ZONE, year: "numeric", month: "2-digit", day: "2-digit",
+});
 
 function serviceTypeStorageKey(placeId) {
   return `departure-board:service-type:${placeId}`;
@@ -67,11 +70,89 @@ function getJapanParts(date) {
   return Object.fromEntries(parts.map(({ type, value }) => [type, value]));
 }
 
+function dateKey(year, month, day) {
+  return `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+}
+
+function addDaysKey(key, days) {
+  const [year, month, day] = key.split("-").map(Number);
+  return dateKeyFormatter.format(new Date(Date.UTC(year, month - 1, day + days, 12)));
+}
+
+function weekdayOfKey(key) {
+  const [year, month, day] = key.split("-").map(Number);
+  return new Date(Date.UTC(year, month - 1, day, 12)).getUTCDay();
+}
+
+function nthMonday(year, month, nth) {
+  const firstDay = new Date(Date.UTC(year, month - 1, 1, 12)).getUTCDay();
+  const firstMonday = 1 + ((8 - firstDay) % 7);
+  return firstMonday + (nth - 1) * 7;
+}
+
+function springEquinoxDay(year) {
+  return Math.floor(20.8431 + 0.242194 * (year - 1980) - Math.floor((year - 1980) / 4));
+}
+
+function autumnEquinoxDay(year) {
+  return Math.floor(23.2488 + 0.242194 * (year - 1980) - Math.floor((year - 1980) / 4));
+}
+
+function baseJapaneseHolidays(year) {
+  return new Set([
+    dateKey(year, 1, 1),
+    dateKey(year, 1, nthMonday(year, 1, 2)),
+    dateKey(year, 2, 11),
+    dateKey(year, 2, 23),
+    dateKey(year, 3, springEquinoxDay(year)),
+    dateKey(year, 4, 29),
+    dateKey(year, 5, 3),
+    dateKey(year, 5, 4),
+    dateKey(year, 5, 5),
+    dateKey(year, 7, nthMonday(year, 7, 3)),
+    dateKey(year, 8, 11),
+    dateKey(year, 9, nthMonday(year, 9, 3)),
+    dateKey(year, 9, autumnEquinoxDay(year)),
+    dateKey(year, 10, nthMonday(year, 10, 2)),
+    dateKey(year, 11, 3),
+    dateKey(year, 11, 23),
+  ]);
+}
+
+function japaneseHolidayKeys(year) {
+  const holidays = baseJapaneseHolidays(year);
+  const baseKeys = [...holidays].sort();
+
+  for (const key of baseKeys) {
+    if (weekdayOfKey(key) !== 0) continue;
+    let substitute = addDaysKey(key, 1);
+    while (holidays.has(substitute)) substitute = addDaysKey(substitute, 1);
+    holidays.add(substitute);
+  }
+
+  for (let month = 1; month <= 12; month += 1) {
+    const daysInMonth = new Date(Date.UTC(year, month, 0, 12)).getUTCDate();
+    for (let day = 2; day < daysInMonth; day += 1) {
+      const key = dateKey(year, month, day);
+      if (holidays.has(key)) continue;
+      if (holidays.has(addDaysKey(key, -1)) && holidays.has(addDaysKey(key, 1))) holidays.add(key);
+    }
+  }
+
+  return holidays;
+}
+
+export function isJapaneseHoliday(date) {
+  const key = dateKeyFormatter.format(date);
+  const year = Number(key.slice(0, 4));
+  return japaneseHolidayKeys(year).has(key);
+}
+
 export function detectServiceType(date, availableServiceTypes) {
   const weekday = new Intl.DateTimeFormat("en-US", {
     timeZone: JAPAN_TIME_ZONE, weekday: "short",
   }).format(date);
-  const preferred = weekday === "Sat" || weekday === "Sun" ? "holiday" : "weekday";
+  const preferred = isJapaneseHoliday(date) || weekday === "Sat" || weekday === "Sun" ? "holiday" : "weekday";
   const ids = availableServiceTypes.map(({ id }) => id);
   return ids.includes(preferred) ? preferred : ids[0];
 }
@@ -216,8 +297,19 @@ function referenceDurationMinutes(departureTime, referenceTime) {
   return referenceMinutes - departureMinutes;
 }
 
-function renderArrivalInfo(container, departureTime, arrivals = []) {
+function preferArrivalInfo(arrivals = []) {
+  const byStation = new Map();
   for (const arrival of arrivals) {
+    const current = byStation.get(arrival.stationName);
+    if (!current || (arrival.timeType === "arrival" && current.timeType !== "arrival")) {
+      byStation.set(arrival.stationName, arrival);
+    }
+  }
+  return [...byStation.values()];
+}
+
+function renderArrivalInfo(container, departureTime, arrivals = []) {
+  for (const arrival of preferArrivalInfo(arrivals)) {
     const item = document.createElement("li");
     const station = document.createElement("span");
     const time = document.createElement("time");

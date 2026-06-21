@@ -66,8 +66,8 @@ function buildArrivalInfoFromRows(rows, referenceStations) {
     if (!referenceStations.includes(stationName)) return [];
     const departure = normalizeDetailTime(departureTime);
     const arrival = normalizeDetailTime(arrivalTime);
-    if (departure) return [matchedReferenceTime(stationName, departure, "departure")];
     if (arrival) return [matchedReferenceTime(stationName, arrival, "arrival")];
+    if (departure) return [matchedReferenceTime(stationName, departure, "departure")];
     return [];
   });
 }
@@ -124,8 +124,8 @@ function parseJrTrainDetail(html, referenceStations) {
     if (!referenceStations.includes(stationName)) continue;
     const departureTime = earliestTime(times.filter((match) => match[2] === "発"));
     const arrivalTime = earliestTime(times.filter((match) => match[2] === "着"));
-    if (departureTime) arrivalInfo.push(matchedReferenceTime(stationName, departureTime, "departure"));
-    else if (arrivalTime) arrivalInfo.push(matchedReferenceTime(stationName, arrivalTime, "arrival"));
+    if (arrivalTime) arrivalInfo.push(matchedReferenceTime(stationName, arrivalTime, "arrival"));
+    else if (departureTime) arrivalInfo.push(matchedReferenceTime(stationName, departureTime, "departure"));
   }
   const destinationOrder = ["新宿", "大船", "池袋", "八王子", "高尾"];
   const destination = [...new Set(terminalStations)]
@@ -255,15 +255,18 @@ function parseKeiseiPage(html, sourceId, routeName, weekend) {
 
 async function parseKeisei(dw) {
   const base = "https://keisei.ekitan.com/search/timetable/station";
-  const [mainline, access, skylinerOfficial] = await Promise.all([
+  const [mainline, access, higashiNarita, skylinerOfficial] = await Promise.all([
     fetchText(`${base}/254-41/d1?dw=${dw}`),
     fetchText(`${base}/682-6/d1?dw=${dw}`),
+    fetchText(`${base}/254-40/d1?dw=${dw}`),
     fetchText("https://www.keisei.co.jp/keisei/tetudou/skyliner/jp/traffic/skyliner_timetable.php"),
   ]);
   const skylinerTimetable = parseSkylinerOfficialTimetable(skylinerOfficial, dw === 1);
   const departures = [
     ...parseKeiseiPage(mainline, "keisei-mainline-nrt-t2", "京成本線", dw === 1),
     ...parseKeiseiPage(access, "keisei-access-nrt-t2", "成田スカイアクセス線", dw === 1),
+    ...parseKeiseiPage(higashiNarita, "keisei-higashi-narita-nrt-t2", "\u4eac\u6210\u6771\u6210\u7530\u7dda", dw === 1)
+      .filter((departure) => departure.destination !== "\u829d\u5c71\u5343\u4ee3\u7530"),
   ];
   const uniqueDepartures = [...new Map(departures.map((departure) => [departure._trainKey, departure])).values()];
   const enriched = await attachTrainDetailArrivalInfo(
@@ -393,6 +396,15 @@ const [nrtWeekdayKeisei, nrtHolidayKeisei, nrtWeekdayJr, nrtHolidayJr, nrtBus] =
   parseJr(1),
   parseBus(),
 ]);
+const nrtKeiseiDepartures = [...nrtWeekdayKeisei, ...nrtHolidayKeisei];
+const uniqueSorted = (values) => [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b, "ja"));
+const nrtSourceValues = (sourceId, field) =>
+  uniqueSorted(nrtKeiseiDepartures.filter((departure) => departure.sourceId === sourceId).map((departure) => departure[field]));
+const nrtDefaultDestinations = (sourceId) =>
+  nrtSourceValues(sourceId, "destination")
+    .filter((destination) => !["\u5b97\u543e\u53c2\u9053", "\u4eac\u6210\u6210\u7530"].includes(destination));
+const nrtDefaultTrainTypesWithoutLocalRapid = (sourceId) =>
+  nrtSourceValues(sourceId, "trainType").filter((trainType) => !["\u666e\u901a", "\u5feb\u901f"].includes(trainType));
 
 const sourceStatus = (sourceUrl) => ({
   status: "manual",
@@ -422,6 +434,7 @@ await writeSchedule(
   metadata("nrt_t2", "weekday", {
     "keisei-mainline-nrt-t2": sourceStatus("https://keisei.ekitan.com/search/timetable/station/254-41/d1?dw=0"),
     "keisei-access-nrt-t2": sourceStatus("https://keisei.ekitan.com/search/timetable/station/682-6/d1?dw=0"),
+    "keisei-higashi-narita-nrt-t2": sourceStatus("https://keisei.ekitan.com/search/timetable/station/254-40/d1?dw=0"),
     "jr-nrt-t2": sourceStatus("https://timetables.jreast.co.jp/timetable/list0611.html"),
     "tyo-nrt-nrt-t2": sourceStatus("https://tyo-nrt.com/wp/wp-content/themes/tyo-nrt/files/timetable_new_horizon.pdf"),
   }),
@@ -432,6 +445,7 @@ await writeSchedule(
   metadata("nrt_t2", "holiday", {
     "keisei-mainline-nrt-t2": sourceStatus("https://keisei.ekitan.com/search/timetable/station/254-41/d1?dw=1"),
     "keisei-access-nrt-t2": sourceStatus("https://keisei.ekitan.com/search/timetable/station/682-6/d1?dw=1"),
+    "keisei-higashi-narita-nrt-t2": sourceStatus("https://keisei.ekitan.com/search/timetable/station/254-40/d1?dw=1"),
     "jr-nrt-t2": sourceStatus("https://timetables.jreast.co.jp/timetable/list0611.html"),
     "tyo-nrt-nrt-t2": sourceStatus("https://tyo-nrt.com/wp/wp-content/themes/tyo-nrt/files/timetable_new_horizon.pdf"),
   }),
@@ -445,6 +459,7 @@ catalog.dataNote = "公式時刻表を参照して2026-06-14に作成したロ�
 catalog.places.nrt_t2.sources = [
   "keisei-access-nrt-t2",
   "keisei-mainline-nrt-t2",
+  "keisei-higashi-narita-nrt-t2",
   "jr-nrt-t2",
   "tyo-nrt-nrt-t2",
 ];
@@ -488,7 +503,7 @@ catalog.sources["tyo-nrt-nrt-t2"] = {
   operatorLabel: "エアポートバス東京・成田",
   line: "成田空港－東京駅",
   stationName: "成田空港第2ターミナル6番",
-  defaultEnabled: true,
+  defaultEnabled: false,
   color: "#0f766e",
   defaultFilter: {},
   referenceStops: { "*": ["東京駅"] },
@@ -497,55 +512,83 @@ catalog.sources["tyo-nrt-nrt-t2"] = {
 delete catalog.sources["keisei-nrt-t2"];
 catalog.sources["keisei-access-nrt-t2"] = {
   id: "keisei-access-nrt-t2",
-  operator: "京成",
-  line: "成田スカイアクセス線",
-  stationName: "空港第2ビル駅",
-  displayName: "成田スカイアクセス線　空港第2ビル駅",
-  shortName: "成田スカイアクセス線",
+  operator: "\u4eac\u6210",
+  line: "\u6210\u7530\u30b9\u30ab\u30a4\u30a2\u30af\u30bb\u30b9\u7dda",
+  stationName: "\u7a7a\u6e2f\u7b2c2\u30d3\u30eb\u99c5",
+  displayName: "\u6210\u7530\u30b9\u30ab\u30a4\u30a2\u30af\u30bb\u30b9\u7dda\u3000\u7a7a\u6e2f\u7b2c2\u30d3\u30eb\u99c5",
+  shortName: "\u6210\u7530\u30b9\u30ab\u30a4\u30a2\u30af\u30bb\u30b9\u7dda",
   defaultEnabled: true,
   color: "#f97316",
   defaultFilter: {
-    trainTypes: ["スカイライナー", "アクセス特急"],
+    trainTypes: ["\u30b9\u30ab\u30a4\u30e9\u30a4\u30ca\u30fc", "\u30a2\u30af\u30bb\u30b9\u7279\u6025"],
+    destinations: nrtDefaultDestinations("keisei-access-nrt-t2"),
   },
   referenceStops: {
-    スカイライナー: ["日暮里"],
-    アクセス特急: ["押上", "日本橋", "日暮里"],
+    "\u30b9\u30ab\u30a4\u30e9\u30a4\u30ca\u30fc": ["\u65e5\u66ae\u91cc"],
+    "\u30a2\u30af\u30bb\u30b9\u7279\u6025": ["\u62bc\u4e0a", "\u65e5\u672c\u6a4b", "\u65e5\u66ae\u91cc"],
   },
   trainTypeCategories: {
-    スカイライナー: "keisei-skyliner",
-    アクセス特急: "keisei-access",
-    快速特急: "keisei-mainline",
-    通勤特急: "keisei-mainline",
-    特急: "keisei-mainline",
-    快速: "local-rail",
-    普通: "local-rail",
-    モーニングライナー: "keisei-skyliner",
-    イブニングライナー: "keisei-skyliner",
+    "\u30b9\u30ab\u30a4\u30e9\u30a4\u30ca\u30fc": "keisei-skyliner",
+    "\u30a2\u30af\u30bb\u30b9\u7279\u6025": "keisei-access",
+    "\u5feb\u901f\u7279\u6025": "keisei-mainline",
+    "\u901a\u52e4\u7279\u6025": "keisei-mainline",
+    "\u7279\u6025": "keisei-mainline",
+    "\u5feb\u901f": "local-rail",
+    "\u666e\u901a": "local-rail",
+    "\u30e2\u30fc\u30cb\u30f3\u30b0\u30e9\u30a4\u30ca\u30fc": "keisei-skyliner",
+    "\u30a4\u30d6\u30cb\u30f3\u30b0\u30e9\u30a4\u30ca\u30fc": "keisei-skyliner",
   },
 };
 catalog.sources["keisei-mainline-nrt-t2"] = {
   id: "keisei-mainline-nrt-t2",
-  operator: "京成",
-  line: "京成本線",
-  stationName: "空港第2ビル駅",
-  displayName: "京成本線　空港第2ビル駅",
-  shortName: "京成本線",
+  operator: "\u4eac\u6210",
+  line: "\u4eac\u6210\u672c\u7dda",
+  stationName: "\u7a7a\u6e2f\u7b2c2\u30d3\u30eb\u99c5",
+  displayName: "\u4eac\u6210\u672c\u7dda\u3000\u7a7a\u6e2f\u7b2c2\u30d3\u30eb\u99c5",
+  shortName: "\u4eac\u6210\u672c\u7dda",
   defaultEnabled: true,
-  color: "#e53935",
+  color: "#2563eb",
   defaultFilter: {
-    trainTypes: ["快速特急", "特急", "通勤特急", "モーニングライナー"],
+    trainTypes: ["\u5feb\u901f\u7279\u6025", "\u7279\u6025", "\u901a\u52e4\u7279\u6025", "\u30e2\u30fc\u30cb\u30f3\u30b0\u30e9\u30a4\u30ca\u30fc"],
+    destinations: nrtDefaultDestinations("keisei-mainline-nrt-t2"),
   },
   referenceStops: {
-    "*": ["押上", "日本橋", "日暮里"],
+    "*": ["\u62bc\u4e0a", "\u65e5\u672c\u6a4b", "\u65e5\u66ae\u91cc"],
   },
   trainTypeCategories: {
-    快速特急: "keisei-mainline",
-    通勤特急: "keisei-mainline",
-    特急: "keisei-mainline",
-    快速: "local-rail",
-    普通: "local-rail",
-    モーニングライナー: "keisei-skyliner",
-    イブニングライナー: "keisei-skyliner",
+    "\u5feb\u901f\u7279\u6025": "keisei-mainline",
+    "\u901a\u52e4\u7279\u6025": "keisei-mainline",
+    "\u7279\u6025": "keisei-mainline",
+    "\u5feb\u901f": "local-rail",
+    "\u666e\u901a": "local-rail",
+    "\u30e2\u30fc\u30cb\u30f3\u30b0\u30e9\u30a4\u30ca\u30fc": "keisei-skyliner",
+    "\u30a4\u30d6\u30cb\u30f3\u30b0\u30e9\u30a4\u30ca\u30fc": "keisei-skyliner",
+  },
+};
+catalog.sources["keisei-higashi-narita-nrt-t2"] = {
+  id: "keisei-higashi-narita-nrt-t2",
+  operator: "\u4eac\u6210",
+  line: "\u4eac\u6210\u6771\u6210\u7530\u7dda",
+  stationName: "\u6771\u6210\u7530\u99c5",
+  displayName: "\u4eac\u6210\u6771\u6210\u7530\u7dda\u3000\u6771\u6210\u7530\u99c5",
+  shortName: "\u4eac\u6210\u6771\u6210\u7530\u7dda",
+  defaultEnabled: true,
+  color: "#38bdf8",
+  defaultFilter: {
+    trainTypes: nrtDefaultTrainTypesWithoutLocalRapid("keisei-higashi-narita-nrt-t2"),
+    destinations: nrtDefaultDestinations("keisei-higashi-narita-nrt-t2"),
+  },
+  referenceStops: {
+    "*": ["\u62bc\u4e0a", "\u65e5\u672c\u6a4b", "\u65e5\u66ae\u91cc"],
+  },
+  trainTypeCategories: {
+    "\u5feb\u901f\u7279\u6025": "keisei-mainline",
+    "\u901a\u52e4\u7279\u6025": "keisei-mainline",
+    "\u7279\u6025": "keisei-mainline",
+    "\u5feb\u901f": "local-rail",
+    "\u666e\u901a": "local-rail",
+    "\u30e2\u30fc\u30cb\u30f3\u30b0\u30e9\u30a4\u30ca\u30fc": "keisei-skyliner",
+    "\u30a4\u30d6\u30cb\u30f3\u30b0\u30e9\u30a4\u30ca\u30fc": "keisei-skyliner",
   },
 };
 Object.assign(catalog.sources["jr-nrt-t2"], {
